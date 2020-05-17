@@ -7,7 +7,6 @@ print('Python e linguagem de Programação')
 Todos nesse País deviam aprender a programar pois isto nos ensina a pensar.
 Steve Jobs
 """
-
 print('Porque ser um Programador ? ')
 
 print('Porque é necessario mais programadores no Mundo?')
