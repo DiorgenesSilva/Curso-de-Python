@@ -2,13 +2,18 @@
  Repositorio do meu Curso de Python 3
  #Aprendendo sobre Python e sobre a Linguagem de Programação 
 print('Python e linguagem de Programação')
+
 """ 
 Todos nesse País deviam aprender a programar pois isto nos ensina a pensar.
 Steve Jobs
 """
+
 print('Porque ser um Programador ? ')
+
 print('Porque é necessario mais programadores no Mundo?')
+
 print('A partir de dados  da CODE.org daqui a 10 anos precisaremos de 2 milhões de pessoas que saibam programar')
+
 print('Hoje em dia se aplica programação não somente em computadores desde vestiveis,acessorios,utensílios domesticos,automóveis, uma area que depende muito de programadores é a área de Games.')
 print('Ou seja o programa mais simples a sua televisão o proprio MENU de volume ou de controle de imagem exisye um software que o faz funcionar e todo software é feito por programadores e lcom as suas linhas de código.')
 print('Vemos hoje em dia o carro totalmente guiado automaticamente por GPS e Algoritimos. O proprio GPS é feito com algoritimos')
