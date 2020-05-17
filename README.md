@@ -28,7 +28,7 @@ print('Agora que você entendeu um pouco sobre programação e aonde ela atua e 
 prints('Existem alguns tipos de \programadores,programadores Desktop,Web,Mobile,Iot,Games etc')
 
 #Introdução a Linguagem de programação 
-
+#Entenda sobre a carreira 
 
 
 
