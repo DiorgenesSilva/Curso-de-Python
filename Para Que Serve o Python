@@ -12,3 +12,20 @@ print('Em 1995 ele foi para os Estados Unidos aonde  Guido Van Houssun decidiu e
 print('A PSF é uma fundação sem fins lucrativos ,mantenedoras e fubdadoras do Python, atualmente a linguagem evolui de acordo com a comunidade que  interage e decide entre eles  oque é melhor para o projeto')
 print('Hoje em di a PSF é apoiada e patrocinada por diversas empresas e corporações como : Microsoft,Google,Goblo.com,You Tube')
 print('Sistemas Operacionais que utlizam AMIGAos,NETbsd,MACos e principalmente o Linux')
+print('Em Guido Van Houson trabalha até hoje como programador em 2005 elefoi trabalhar no Google eaplicar o Python dentro de projetos pessoaisno Google e em 2013 saiu do Google e foi para o DropBox')
+
+print('Oque é Python') 
+print(' Ele é uma linguagem de proposito geral ,você pode aplicar o Python em quase toda s setores da tecnologia ou programação,desde games,aplicativos,Dados,|Calculos Cientificos e etc) 
+print(' Python foi criado para ser facil e intuitivo')
+print('Ele é multiplaforma roda nos principais sistemas operacionais Android,Windows,mac e etc')
+print('Ela vem com baterias incluidas ele vem completo para ser usado o pacote que ele dispõe ja pode fazer milhares de projetos') 
+print('Linguagem de codigo aberto aonde voce pode baixar e fazer restribuições')
+print('Uma linguagem organizada quando voce faz suas linhas de codigo voce percebe como ele é organizado') 
+print('A linguagem Python é orientada a objeto') 
+print('Cheio de Modulos e Bibliotecas livres para instalar')
+
+
+print('Esudar a filosofia  Zen do Python de Tim Peters') 
+
+print('Principais Areas que se aaplicam Python Inteligecia Artificial,Biotecnologia e Computação 3D')
+print('aberto ZOPE,AIR CANDÁ,TORRENT,GLOBO.COM,GOOGLE,YOUTUBE,NASA,AUTODESK,BLENDER,GUIMP,ARDUINO')
