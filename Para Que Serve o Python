@@ -1,0 +1,8 @@
+#De onde vem o Python?
+print('De onde veio o Python')
+
+print('A Lingyagem Python foi criada em Amsterdan na Holoanda, pelo programdor Guido Van Hossumm no CWI ( Centro de Matemática e Ciência da Computação).')
+print(' Van Houssum trabalhava em um projeto em 1989 na limguagem ADC e justamentene teve um problema quando teve que programar na linguagem C.')
+print('Ele pensou em criar uma linguagem interpretada , com comandos de simples compreensão .Foi dai que surgiu a proposta ea ideia de criar o python') 
+print('Naquela época no CWI eles tinhamuma normapara batizar os projetos internos,eles deveriam ser batizados com algum programa remetido a televisão. Eles entao gostavam de um programa de tV  MONT PYTHON FLYNG CIRCUS e tbm o simboloo da primeira capa do  livro de Python saiu com a imagem de duas cobras Python se entrelaçando e assumindo assim a imagem remetida a cobra')
+print(' ) 
