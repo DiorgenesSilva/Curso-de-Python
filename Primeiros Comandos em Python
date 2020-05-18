@@ -18,21 +18,16 @@ print('utilizada a Função print entao utiliza se parentes')
 print('Apos toda função se utiliza parentes')
 print ('Olá,Mundo!')
 print('Neste exemplo foi utlizado Aspas ou seja é uma mensagem')
-
 print('7'+'4')
 
 print('Exemplo 2 sem ASPAS')   
-
 print('Nesta expressao nao se utiliza Aspas porque esta fazendo um caluculo')
-
 print('Foi utlizada a função Print então a expressao fica entre parenteses')
-
 print(7+4)
-
 print(7+5-2)
 
-print('Entendendo sobre VARIAVEIS')
 
+print('Entendendo sobre VARIAVEIS')
 print('Aula 04 Variaveis')
 
 print('Sempre utiliz letras minusculas em variaveis')
