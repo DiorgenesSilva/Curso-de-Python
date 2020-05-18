@@ -13,14 +13,10 @@ print('Mensagens sao utilizadas para escrever algo na tela e para escrever esta 
 print('Numeros sao usados inicialmente para fazer contas e expressoes  e calculos nao usam ASPAS')
 
 print('Exemplo 1 utilizando ASPAS')
-
 print('Nesta expressao utiliza se ASPAS porque é uma mensagem de texto')
-
 print('utilizada a Função print entao utiliza se parentes')
 print('Apos toda função se utiliza parentes')
-
 print ('Olá,Mundo!')
-
 print('Neste exemplo foi utlizado Aspas ou seja é uma mensagem')
 
 print('7'+'4')
