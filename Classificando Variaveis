@@ -14,9 +14,12 @@ n=float(input('qual é o numero ))
 print(type(n))
 print('No exemplo acima a variavel foi convertida e classificada para float '))
 
+print('Exemplo 4')
 n=boll(input('Qual é o numero')
 print(n)
 print('No exemplo acima voce consegue saber se existe um valor dentro da varial True/False')
+
+
 
 
 
