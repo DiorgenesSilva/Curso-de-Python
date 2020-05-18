@@ -19,7 +19,14 @@ n=boll(input('Qual é o numero')
 print(n)
 print('No exemplo acima voce consegue saber se existe um valor dentro da varial True/False')
 
-
+print('utlizando Metodo .is().Metodo de teste de tipo ')
+n=input('Qual o numero?')
+print(n.is())
+print(' .isnumeric() é um numero ?')
+print(' .isalpha () é uma letra ?')
+print(' .is.alphanum() tem numero e letra')
+print(' ,isupper () esta somente em maiuscula ')
+print(' .islower () esta somente em minuscula')
 
 
 
