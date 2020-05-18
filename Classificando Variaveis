@@ -1,0 +1,17 @@
+print('Classificando Variaveis')
+print('Exemplo 1 ')
+n=input('Digite um numero')
+print(type(n))
+print('No exemplo acima mesmo a variavel sendo um numero ele é classificado como str')
+
+print('Exemplo 2')
+n=int(input('digite um numero))
+print(type(n))
+print('No exemplo acima a variavel foi convertida e classificada como inteira pelo type() e tipo primitivo int ')
+
+print('Exemplo 3 ')
+n=float(input('qual é o numro ))
+print(type(n))
+print('No exemplo acima a variavel foi convertida e classificada para float ')]
+
+
