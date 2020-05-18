@@ -7,4 +7,25 @@ print(' Van Houssum trabalhava em um projeto em 1989 na limguagem ADC e justamen
 print('Ele pensou em criar uma linguagem interpretada , com comandos de simples compreensão .Foi dai que surgiu a proposta ea ideia de criar o python') 
 print('Naquela época no CWI eles tinham uma norma para batizar os projetos internos,eles deveriam ser batizados com algum programa remetido a televisão. Eles entao gostavam de um programa de tV  MONT PYTHON FLYNG CIRCUS e tbm o simbolo da primeira capa do  livro de Python saiu com a imagem de duas cobras Python se entrelaçando e assumindo assim a imagem remetida a cobra')
 
+  
+"""
+         
+  Python  A História do Python
+A História do Python
+Wed 08 October 2014 Magnun Python comments
+ python história cwi amoeba
+Há alguns anos eu comecei um projeto de escrever um livro sobre Python. Como nunca concluí esse trabalho acabei com diversos resultados de pesquisas interessantes que realizei. Um deles é a história do Python, que apresento em uma versão resumida e direta.
+
+Julgo que a história do Python é extremamente importante para a comunidade, pois ela além de mostrar fatos importantes da linguagem, explica algumas de suas características e como seus desenvolvedores lutaram para manter esse projeto um dentro dos moldes do Software Livre e Open Source (antes mesmo de existir esse termo).
+"""
+Python  
+História
  
+A Linguagem Python foi concebida no fim dos anos 80. A primeira ideia de implementar o Python surgiu mais especificamente em 1982 enquanto Guido Van Rossum trabalhava no CWI (Centrum Wiskunde & Informatica, Centro de Matemática e Ciência da Computação) em Amsterdã, Holanda, no time de desenvolvimento da Linguagem ABC. Neste mesmo local também foi desenvolvida a linguagem Algol 68.
+
+Posteriormente, em 1987, com o fim da linguagem ABC, Guido foi transferido para o grupo de trabalho Amoeba — um sistema operacional Microkernel liderado por Andrew Tanenbaum. Foi neste grupo que Guido percebeu a necessidade de uma linguagem para escrever programas intermediários, algo entre o C e o Shell Script.
+
+Percebi que o desenvolvimento de utilitários para administração de sistema em C (do Amoeba) estava tomando muito tempo. Além disso, fazê-los em shell Bourne não funcionaria por diversas razões. O motivo mais importante foi que, sendo um sistema distribuído de microkernel com um design novo e radical, as operações primitivas do Amoeba eram diferiam muito (além de serem mais refinadas) das operações primitivas disponíveis no shell Bourne. Portanto, havia necessidade de uma linguagem que "preencheria o vazio entre C e o shell". Por um tempo longo, esse foi o principal objetivo do Python.
+
+—Guido Van Rossum
+ """
