@@ -1,7 +1,9 @@
 # Curso de Python
- Repositorio do meu Curso de Python 3
+
+ Primeiro Repositorio do meu Curso de Python 3
+
  #Aprendendo sobre Python e sobre a Linguagem de Programação 
-print('Python e linguagem de Programação')
+ 
 """ 
 Todos nesse País deviam aprender a programar pois isto nos ensina a pensar.
 Steve Jobs
