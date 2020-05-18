@@ -11,8 +11,8 @@ print('No exemplo acima nao foi efetuado o Tipo Primtivo necessario para efetuar
 
 print('TIPOS PRIMITIVOS')
 print('INT numeros Inteiros -234,-34,-3,-2,-1,0,1,2,3,4,45,234... ')
-print('FLOAT numero Real ou de Ponto Flutuante -12.897,12.234,2.4,... ')
-print('BOOL valores Logicos ou Boleanos')
+print('FLOAT numero Real ou de Ponto Flutuante -12.897,12.234,2.4,7.0,.')
+print('BOOL valores Logicos ou Boleanos True/False')
 print('STR Valores Carcteres ou strings 'mundo','2.0',... ') 
 
 
