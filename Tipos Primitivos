@@ -1,7 +1,9 @@
 print('Curso de Python Tipos Primitivos')
 print('Toda linguagem de programação trabalha com basicamente 4 Tipos Primitivos.')
 print('Teoria) 
-print('Exemplo 1')
+
+print('Exemplo 1 sem aplicar conceito de Tipos Primitivos')
+print('Exercicio: Faça um programa que leia dois numeros e calcule a soma entre eles')
 n1=input('qual é o numero') 
 n2=input('qual é o numero')
 s=(n1+n2)
@@ -15,6 +17,12 @@ print('FLOAT numero Real ou de Ponto Flutuante -12.897,12.234,2.4,7.0,.')
 print('BOOL valores Logicos ou Boleanos True/False')
 print('STR Valores Carcteres ou strings 'mundo','2.0',... ') 
 
+print('Exemplo 2 aplicando conceito de Tipos Primitivos') 
+print('Exercicio: Faça um programa que leia dois numeros e calcule a soma entre eles')
+n1=int(input('Qual é o numero'))
+n2=int(input('Qual é o numero'))
+s=(n1+n2)
+print('A soma entre eles é igual a',s)
 
 
 
