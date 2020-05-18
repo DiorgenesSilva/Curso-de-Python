@@ -3,10 +3,13 @@
  Primeiro Repositorio do meu Curso de Python 3
 
  #Aprendendo sobre Python e sobre a Linguagem de Programação 
+
  
 """ 
+
 Todos nesse País deviam aprender a programar pois isto nos ensina a pensar.
 Steve Jobs
+
 """
 print('Porque ser um Programador ? ')
 
