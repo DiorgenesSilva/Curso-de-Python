@@ -40,6 +40,7 @@ print('Agora que você entendeu um pouco sobre programação e aonde ela atua e 
 prints('Existem alguns tipos de areas que você pode atuar apo´s estar capacitado algumas sao: programadores,programadores Desktop,Web,Mobile,Iot,Games etc')
 
 #Introdução a Linguagem de programação 
+
 #Entenda sobre a carreira 
 
 
