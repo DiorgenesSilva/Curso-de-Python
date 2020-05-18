@@ -29,15 +29,10 @@ print(7+5-2)
 
 print('Entendendo sobre VARIAVEIS')
 print('Aula 04 Variaveis')
-
 print('Sempre utiliz letras minusculas em variaveis')
-
 print('Toda Variavel é um OBJETO e todo Objeto é mais que uma Variavel')
-
 print('Toda Variavel pode receber valores')
-
 print('E este recebe valores é representado pelo sinal de (=) ')
-
 print('variaveis sao espaços na memória do computador que serve para guardar dados')
 
 print('Exemplo abaixo guardadndo valores e mostrando esses valores com a funçao print')
