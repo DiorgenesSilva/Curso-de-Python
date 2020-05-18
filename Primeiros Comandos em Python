@@ -42,17 +42,11 @@ peso=90.7
 print(nome,idade,peso)
 
 print('Função INPUT')
-
 print('A  função input serve para criar uma interatividade com o usuario')
-
 print('A função print significa=escreva  já input significa=leia')
-
 nome=input('Qual é o seu nome?')
-
 idade=input('Quantos anos voce tem?')
-
 peso=input('Quanto voce pesa?')
-
 print(nome,idade,peso)
 
 
