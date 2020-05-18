@@ -7,7 +7,7 @@
  
 """ 
 
-Todos nesse País deviam aprender a programar pois isto nos ensina a pensar.
+Todos nesse País deviam aprender a programar pois isto nos ensina a pensar...
 Steve Jobs
 
 """
