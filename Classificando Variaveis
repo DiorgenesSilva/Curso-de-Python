@@ -10,8 +10,13 @@ print(type(n))
 print('No exemplo acima a variavel foi convertida e classificada como inteira pelo type() e tipo primitivo int ')
 
 print('Exemplo 3 ')
-n=float(input('qual é o numro ))
+n=float(input('qual é o numero ))
 print(type(n))
-print('No exemplo acima a variavel foi convertida e classificada para float ')]
+print('No exemplo acima a variavel foi convertida e classificada para float '))
+
+n=boll(input('Qual é o numero')
+print(n)
+print('No exemplo acima voce consegue saber se existe um valor dentro da varial True/False')
+
 
 
