@@ -9,9 +9,7 @@ Print('Teoria')
 print('Os dados em Python se eles forem Mensagens eles possuem delimitadores especiais')
 print('O delimitador padrão do Python para mensagem usam se ASPAS no caso do python pode ser Aspas simples ou Aspas duplas ')
 print('No Python todos comandos são funçoes e todas funçoes tem que ter Parenteses')
-
 print('Mensagens sao utilizadas para escrever algo na tela e para escrever esta mensagem utiliza o comando PRIN(que significa escreva).') 
-
 print('Numeros sao usados inicialmente para fazer contas e expressoes  e calculos nao usam ASPAS')
 
 print('Exemplo 1 utilizando ASPAS')
