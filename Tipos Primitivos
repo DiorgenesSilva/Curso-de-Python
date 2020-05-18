@@ -1,0 +1,19 @@
+print('Curso de Python Tipos Primitivos')
+print('Toda linguagem de programação trabalha com basicamente 4 Tipos Primitivos.')
+print('Teoria) 
+print('Exemplo 1')
+n1=input('qual é o numero') 
+n2=input('qual é o numero')
+s=(n1+n2)
+print('A soma é ',s )
+print('No exemplo acima nao foi efetuado o Tipo Primtivo necessario para efetuar um calculo ele nao esta somando esta contatenando ou seja somando uma str na outra.')
+
+print('Exemplo 2)
+
+print('TIPOS PRIMITIVOS')
+print('INT ')
+print('FLOAT ')
+print('BOOL ')
+print('STR ') 
+
+
