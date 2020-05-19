@@ -19,6 +19,7 @@ print(5/2)
 print(5**2)
 print(5//2)
 print(5%2)
+print(5*1/2)
 
 print('Ordem de precedencia de Calcular expressoes de Operadores aritimeticos') 
 print('Ordem de Precedencia')
@@ -26,6 +27,13 @@ Print(' () Primeira Ordem de Precedencia Calcular os Parenteses')
 print(' * Segunda Ordem de precedencia Calcular as potencias')]
 print(' *,/,//,% Terceira Ordem de Precedencia multiplicação,Divisao,Divisão inteira e resto da divisão,quem vaparecer primeiro da esquerda')
 print(' +,- Quarta Ordem de precedencia Adicaçao e subtração') 
+
+print('Exemploes de como utilizar as regras de Ordem de precedencia em operadores Aritimeticos')
+print(5+3*2)
+Print('No exemplo acima foi calculado primeiro  Orde de precedemcia 3 (3*2) a multiplicaçao  e logo apos a Adição(5+6)') 
+
+print(5+3*2/(2-2))
+print(' Nesta exercicio acima foi calculado a Ordem 1 de precedencia (2-2) os paenteses ,logo apos a Multipçicaçao Ordem 3, e a divisão e por ultimo a adição') 
 
 
 
