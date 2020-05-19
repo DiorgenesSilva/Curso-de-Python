@@ -1,0 +1,61 @@
+#Curso de Python 
+print(' Primeiros Comandos e Variáveis e Função PRINT e INPUT')
+print(' Primeiros comandos em Python')
+print('Como interagir com o computador')
+print('Mostrando coisa para o usuario e pedindo coisas para o usuario')
+print('iremos fazer as primeiras operaçoes basicas')
+
+#Teoria
+print('Os dados em Python se eles forem Mensagens eles possuem delimitadores especiais')
+print('O delimitador padrão do Python para mensagem usam se ASPAS no caso do python pode ser Aspas simples ou Aspas duplas ')
+print('No Python todos comandos são funçoes e todas funçoes tem que ter Parenteses')
+print('Mensagens sao utilizadas para escrever algo na tela')
+print('Numeros sao usados inicialmente para fazer contas e expressoes  e calculos nao usam ASPAS')
+
+#Exemplo 1 utilizando ASPAS
+#Nesta expressao utiliza se ASPAS porque é uma mensagem de texto
+#utilizada a Função print entao utiliza se parentes
+#Apos toda função se utiliza parentes  
+print ('Olá,Mundo!')
+#Neste exemplo foi utlizado Aspas ou seja é uma mensagem
+print('7'+'4')
+
+#Exemplo 2 sem ASPAS   
+#Nesta expressao nao se utiliza Aspas porque esta fazendo um caluculo
+#Foi utlizada a função Print então a expressao fica entre parenteses 
+print(7+4)
+print(7+5-2)
+
+#Entendendo sobre Variaveis
+print('Aula 04 Variaveis')
+print('Toda Variavel é um OBJETO e todo Objeto é mais que uma Variavel')
+print('Toda Variavel pode receber valores')
+print('E este recebe valores é representado pelo sinal de = ')
+print('variaveis sao espaços na memória do computador que serve para guardar dados')
+#Exemplo abaixo guardadndo valores e mostrando esses valores co a funçao print
+nome=('Dio')
+idade=36
+peso=90.7
+print(nome,idade,peso)
+
+#Função Input
+print('Função INPUT')
+print('A  função input serve para criar uma interatividade com o usuario')
+print('A função print significa=escreva  já input significa=leia')
+nome=input('Qual é o seu nome?')
+idade=input('Quantos anos voce tem?')
+peso=input('Quanto voce pesa?')
+print(nome,idade,peso)
+
+
+
+
+
+
+
+
+
+
+      
+
+

@@ -1,0 +1,23 @@
+print('Operadores Aritimeticos')
+print('Operadores Aritimeticos sao representados por:')
+print(' + Operador de Adição')
+print*' - Operador de sbtração')
+print(' * Operador de Multiplicação')
+print(' / operador de Divisão')
+print(' ** Operador de potencia ou Exponenciação')
+print(' // operador de Divisão Inteira')
+print(' %  Calcula o Modulo ou  Resto da Divisao')
+
+print('Todo operador precisa de operandos Binarios ') 
+print('operandos podem ser numeros  ou variaveis' )
+print('Segue o Exemplo abaixo')
+print(5+2)
+print(5-2) 
+print(5*2)
+print(5/2)
+print(5**2)
+print(5//2)
+~print(5%2)
+
+
+
