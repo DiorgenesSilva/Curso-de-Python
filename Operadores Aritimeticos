@@ -1,7 +1,8 @@
 print('Operadores Aritimeticos')
+
 print('Operadores Aritimeticos sao representados por:')
 print(' + Operador de Adição')
-print*' - Operador de sbtração')
+print*' - Operador de subtração')
 print(' * Operador de Multiplicação')
 print(' / operador de Divisão')
 print(' ** Operador de potencia ou Exponenciação')
@@ -17,7 +18,16 @@ print(5*2)
 print(5/2)
 print(5**2)
 print(5//2)
-~print(5%2)
+print(5%2)
+
+print('Ordem de precedencia de Calcular expressoes de Operadores aritimeticos') 
+print('Ordem de Precedencia')
+Print(' () Primeira Ordem de Precedencia Calcular os Parenteses') 
+print(' * Segunda Ordem de precedencia Calcular as potencias')]
+print(' *,/,//,% Terceira Ordem de Precedencia multiplicação,Divisao,Divisão inteira e resto da divisão,quem vaparecer primeiro da esquerda')
+print(' +,- Quarta Ordem de precedencia Adicaçao e subtração') 
+
+
 
 
 
