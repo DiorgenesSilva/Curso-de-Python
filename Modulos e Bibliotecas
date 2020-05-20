@@ -50,7 +50,7 @@ print('Exemplo 2 utilizando from')
 print('no caso se eu quiser importar a biblioteca ou funcionalidade sqrt')
 #from math import sqrt (neste comando estarei utilizando somente sqrt)
 #from math import sqrt,ceil ( neste outro exemplo importamos 2 funcionalidades especificas')
-     
+       
 
 
     
