@@ -1,0 +1,58 @@
+#Modulos e Bibliotecas
+print('Fase 8 Módulos e Bibliotecas')
+print('O Phyton é uma linguagem que trabalha a partir de módulos')
+print('Ele trabalha apartir de pacotes instalavéis')
+#Exemplo
+print('Como o corpo humano ele precisa de Comida,bebida e Doces')
+print('O corpo nao vem com estes objetos ou bibliotecas ja instalados')
+print('Como no programa Python o copo humano vem com básico para a sua funcionalidade')
+print('Isto acontece para que o programa seja pequeno e rápido e nao tenha gastos adicionais')
+print('Dentro da Linguagem Python pode se usar o Comdando IMPORT')
+print('Para adicionar Bibliotecas Extras para o Python')
+print('Este comando é mais generalista')
+
+#Exemplo de Import 
+#import bebida
+#import doces
+print('No Exemplo acima o comando Import ira adicionar do Modulo')
+print('Todas as Bibliotecas de Bebidas')
+
+#From import
+print('Agora se o usuario quiser Importar apenas uma objeto expecifico da Biblioteca')
+print('Utiliza se o Comando FROM')
+#Exemplo de comando from import
+#From bebida import cafe
+#From doce import pudim
+('Este comando é mais especifico')
+
+#Exemplos de Bibliotecas Padroes do Python
+#A Biblioteca MATH
+print('Uma Biblioteca Padrao Nativa do Python')
+print(' A biblioteca math significa matematica')
+print(' Funcionalidades da Biblioteca math ira trazer funcionalidades extras')
+
+#math Funcionalidades matematicas extras 
+#ceil funcionalidade ceil faz arredendamento para cima
+#floor funcionalidade floor faz o arredondamento para baixo
+#trunc a funcionalidade trunc fixa o resultado ou trunca sem float ou ponto
+#pow funcionalidade pow significa potencia
+#sqrt a funcionalidade sqrt significa square root ou raiz quadrada
+#factorial funcionalidade factorial calcula o fatorial da expressao
+print('Exemplo de utilizando Modulo math')
+
+#Exemplo 1 
+import math
+#Se eu utilizar este comando import math
+#ele vai importar todas as funcionalidades
+#ceil,floor,trunc,pow,sqrt e factorial entre outras
+
+print('Exemplo 2 utilizando from')
+print('no caso se eu quiser importar a biblioteca ou funcionalidade sqrt')
+#from math import sqrt (neste comando estarei utilizando somente sqrt)
+#from math import sqrt,ceil ( neste outro exemplo importamos 2 funcionalidades especificas')
+     
+
+
+   
+      
+      
