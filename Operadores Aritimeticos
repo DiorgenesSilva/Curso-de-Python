@@ -50,5 +50,6 @@ print('A divisão interir aé {}, ea potencia {}'.format(di,p))
 print('para quebrar a linha no Pythom (\n) ')
 print('para deixar a linha debaixo e cima juntas (end='') ')
    
+   
   
 
