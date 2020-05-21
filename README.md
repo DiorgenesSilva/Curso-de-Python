@@ -1,5 +1,7 @@
 print('Curso de Python')
+
 print(' Primeiro Repositorio do meu Curso de Python')
+
 print('Aprendendo sobre Python e sobre a Linguagem de Programação ')
 
 """ 
