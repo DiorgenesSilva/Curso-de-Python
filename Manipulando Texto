@@ -1,0 +1,24 @@
+#Manipulando Texto 
+
+#Exemplo 
+frase='Curso de Python'
+O Exemplo acima é uma cadeia de texto,cadeia de caracters ou string.Para o Python toda cadei ade texo esta entre Aspas simples ou duplas.
+Na string 'Curso de Python' assim que o usuario cria esta cadeia de caracteres para cada letra eé separado por espaços na memoria do computador.Cada um desses espaaços vai receber o nome de indice.
+
+Operação tecnica de FATIAMENTO 
+O contador de contagem da cadeia de texto começa de numero 0,1,2,3...etc
+
+"Curso de Python"
+#exemplo 1
+frase[9] Ele vai indentificar entre a cadeia de caracteres a que esta guardada que seria a letra (V) pois a contagem começa com o numero 0 no fatiamento 
+
+#exemplo 2 
+frase[9:13] Ele vai identificar na string do 9 ao 12 e excluindo do 14 paratrás formando (Vide).
+
+#exemplo3
+frase[9:21:2]
+
+#exemplo4
+frase[:5]
+
+frase[15:]
