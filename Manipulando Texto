@@ -2,14 +2,20 @@
 
 #Exemplo 
 frase='Curso em Video  Python'
-O Exemplo acima é uma cadeia de texto,cadeia de caracters ou string.Para o Python toda cadeia de texo está entre Aspas simples ou duplas '' "".
-Na string 'Curso em Video de Python' logo que o usuario cria esta cadeia de caracteres para cada letra eé separado por espaços na memoria do computador.Cada um desses mini espaços vai receber o nome de indice.Que é um numero sequencial iniciando do numero 0 e indo até o final da cadeia de texto ou str,no caso da cadeia de texto apresentada 'Curso em Video de Python' temos uma sequencia de 0 a 20 
+O Exemplo acima é uma cadeia de texto,cadeia de caracters ou string.
+Para o Python toda cadeia de texo está entre Aspas simples '', ou duplas  "".
+Na string 'Curso em Video de Python' logo que o usuario cria esta cadeia de caracteres para cada letra é separado por espaços na memoria do computador.Cada um desses mini espaços vai receber o nome de indice.
+O indice é um numero sequencial iniciando do numero 0 e indo até o final da cadeia de texto ou String,no caso da cadeia de texto apresentada ,'Curso em Video de Python' temos uma sequencia de 0 a 20 somando um total de 21 caracteres
 
-Operação tecnica de FATIAMENTO 
-O contador de contagem da cadeia de texto começa de numero 0,1,2,3...etc
-[]=O Simbolo de COLCHETES é um indentificador da estrutura de dados do Python chamada de LISTA
+OPERAÇÃO DE FATIAMENTO
 
-"Curso em Video Python"
+#LISTA DE STRIGNS,CADEIA DE TEXO OU CARACTERES
+O contador de contagem da cadeia de texto começa de numero 0,1,2,3.., 20,21,..
+O Simbolo de COLCHETES ( [] ) é um indentificador da estrutura de dados do Python chamada de LISTA
+
+#Exemplo  
+frase="Curso em Video Python"
+C=0,u=1,r=2,s=3,o=4,spc=5,e=6,m=7,spc=8,V=9,i=10,d=11,e=12,0=13,spc=14,P=15,y=16,t=17,h=18,o=20,n=21
 #exemplo 1
 frase[9] O Python vai indentificar na Str a letra (V)  
 Seguindo a sequencia o numero 0 será a letra (C) da palavra 'Curso' 
@@ -19,15 +25,15 @@ frase[9:13] O Python vai identificar na string do 9 ao 13 e excluindo do 13 para
 Ou seja ele pede para o usuario pegar na cadeia de texo iniciar ao 9 e ie ate o 12 excluindo o 13
 
 #exemplo3
-frase[9:21] O Python vai identificar na Str do 9 ao 21 pois é o limite indo de 0 a 20 
+frase[9:21] O Python vai identificar na String do 9 ao 21 pois é o limite indo de 0 a 20 
 Ou seja não importa o valor acima ele só irá ate o limite da string
 mas´não é aconselhavel por valores acimas da máxima
 
 #exemplo4
-frase[9:21:2] O Python vai identificar na Str do 9 ao 21 pulando de 2 em 2 
+frase[9:21:2] O Python vai identificar na String do 9 ao 21 pulando de 2 em 2 
 No caso na cadeia de texto seria (V,d,o,P,T,O) ele vai pular de duas casas de 9 a 21
  
-frase[:5] Quando omite o valor inicial iniciando ppor : ele começa do caractere 0 a 5 
+frase[:5] Quando omite o valor inicial iniciando por : ele começa do caractere 0 a 5 
 mostrando a palavra (Curso) lembrando que o espaço 5 da Str sera excluido
 
 frase[15:] No Python quando nao tem um valor final e apenas (:) ele pega do caractere 15 até o final
@@ -42,14 +48,14 @@ Analisar uma cadeia de texto ou Str é saber informações sobre a mesma
 #Exemplos de Analisadores de Str
 'Curso em Video Python'
 
-* Utilizando a funcionaçidade  (len) vem de  comprimento ou qual é o comprimento da Str 
-len(frase) O len da cadeia de texto tem 21 caracteres na frase 'Curso em Video de Pyhon'
+* Utilizando a funcionaçidade  (.len()) vem de  comprimento ou qual é o comprimento da Str 
+len[frase] O len da cadeia de texto tem 21 caracteres na frase 'Curso em Video de Pyhon'
 
-* Uilizando a funcionalidade  (.count) Ele vai contar quantas vezes aparece um  determinado caractere 
+* Uilizando a funcionalidade  (.count{}) Ele vai contar quantas vezes aparece um  determinado caractere 
 frase.count('o') Dentro da frase do exemploquantas vezes aparece a letra '0' o valor sera, 3
 frase.count('o',0,13) Do Caactere o do 0 ate o 13 quantas vezes tem o caractere '0'
 
-*Utilizando a funcionalidade  (.find) Ele vai me indiar quando o caractere aparecer primeiro 
+*Utilizando a funcionalidade  (.find{}) Ele vai me indiar quando o caractere aparecer primeiro 
 frase.find('deo') o Python vai me indicar que ele incia na posição 11 com aletra (d)
 frase.find('Android') como esta Str não esta na cadeia de texo do exemplo ele volta -1 negativo 
 
@@ -62,37 +68,37 @@ frase.find('Android') como esta Str não esta na cadeia de texo do exemplo ele v
 Via de regra uma lista de String é imutável não é possivel mudar ela 
 Mas é possivel mudar ela através de métodos e não nos seus elementos
 
-*  Utilizando  funcionalidae (.replace) replace é reposicionar\trocar  
+*  Utilizando  funcionalidae (.replace()) replace é reposicionar\trocar  
 frase.replace('Python','Android') O Python irá reposicionar ou trocar a str 'Python' po'Android'
 será substituido de uma forma secundaria 
 
-* Utilizando metodo (.upper() ) Irá manter as caracteres em maiusculas 
+* Utilizando metodo (.upper()) Irá manter as caracteres em maiusculas 
 E mudar as outras minusculas para maiusculas
-frase.upper('CURSO EM VIDEO PYTHON') 
+frase.upper()==('CURSO EM VIDEO PYTHON') 
 
 * Utilizando metodo (.lower() ) Irá manter os caracteres em minusculas 
 E mudar os caracteres em maiúsculas para minusculas 
-frase.lower('curso e video Pthon')
+frase.lower[]==('curso e video Pthon')
 
 * Utilizando método de função (.capitalize() ) O captalize vai jogar do 1 ate o fim para minusculas
 Deixando somente o caractere (0) em maiuscula 
-frase.capitalize()('Curso em video de python')
+frase.capitalize()==('Curso em video de python')
 
 * Utilizando método de função (.title()) Ele vai analisar quantas palavras tem na Str ele vai fazer uma quebra de espaços 
 Aonde estiver espaços ele vai inciar apos os espaços com uma letra maiuscula
-frase.title() ('Curso Em Video De Python')
+frase.title()== ('Curso Em Video De Python')
 
-* Utlizando método de função (.strip() ) Ele vai remover os espaços inutes da String
-exemplo  frase=('  Apremda Python   ') 
+* Utlizando método de função (.strip() Ele vai remover os espaços inutes da String
+exemplo  frase==('  Apremda Python   ') 
 Neste caso o caractere (a) esta na posição 3
 frase.strip() ('Aprenda Python') o caractere (a) agora esta na posição 0 da sequencia  
 E termina apos o ultimo caractere da sequencia 
 
 * Utlizando método de função (.rstrip ()) Ele vai remover os espaços inuteis a direita apos o ultimo caractere
-frase.(rstrip()) ('  Aprenda Python') 
+frase.(rstrip()== ('  Aprenda Python') 
 
 * Utilizando método de função (.lstrip()) Ele vai remover espaços inuteis a esquerda antes da primeira conatgem 
-frase.(lstrip()) ('Aprenda Python  ')
+frase.(lstrip() == ('Aprenda Python  ')
 
 
 #DIVISÃO DE CARACTERES 
@@ -100,14 +106,14 @@ Ele vai dividir as cadeias de texto
 
 frease=('Curso em Video  Python')
 
-* Utilizando a Funcionalidade (.split())  Um split faz uma divisão aonde tem espaços na string
+* Utilizando a Funcionalidade (.split[])  Um split faz uma divisão aonde tem espaços na string
 Ele vai gerar tecnicamente listas 
 frase.spçit()= Curso /  em / Video / Python 
 lista1 Curso 
 lista2  em
 Lista3  Video 
 Lista4  Python 
-*Quando s tem string separadas em listas pode se usar um (.join())  que significa juntar 
+*Quando s tem string separadas em listas pode se usar um (.join[]  que significa juntar 
 ('-').join(frase)=('Curso-em-Video-Python)
 
 
