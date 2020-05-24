@@ -1,52 +1,60 @@
 #Manipulando Texto 
 
-#Exemplo 
+#Exemplo abaixo como  base para Teoria
 frase='Curso em Video  Python'
 O Exemplo acima é uma cadeia de texto,cadeia de caracters ou string.
-Para o Python toda cadeia de texo está entre Aspas simples '', ou duplas  "".
-Na string 'Curso em Video de Python' logo que o usuario cria esta cadeia de caracteres para cada letra é separado por espaços na memoria do computador.Cada um desses mini espaços vai receber o nome de indice.
-O indice é um numero sequencial iniciando do numero 0 e indo até o final da cadeia de texto ou String,no caso da cadeia de texto apresentada ,'Curso em Video de Python' temos uma sequencia de 0 a 20 somando um total de 21 caracteres
+Para o Python toda cadeia de texo está entre Aspas simples '', ou duplas  "" existe a possibilidade de usar 3 Aspas duplas """ .
+frase='Curso em Video  Python'
+Na string 'Curso em Video de Python' logo que o usuario cria esta cadeia de caracteres para cada letra é separado por espaços na memoria do computador.
+Cada um desses mini espaços vai receber o nome de indice.
+O indice é um numero sequencial iniciando do numero 0, e indo até o final da cadeia de texto ou String,no caso da cadeia de texto apresentada,'Curso em Video Python' temos uma sequencia de 0 a 20 somando um total de 21 caracteres
 
 OPERAÇÃO DE FATIAMENTO
 
 #LISTA DE STRIGNS,CADEIA DE TEXO OU CARACTERES
+frase='Curso em Video  Python'
 O contador de contagem da cadeia de texto começa de numero 0,1,2,3.., 20,21,..
 O Simbolo de COLCHETES ( [] ) é um indentificador da estrutura de dados do Python chamada de LISTA
+O Python diferencia de maiuscula e minuscula 
 
 #Exemplo  
 frase="Curso em Video Python"
 C=0,u=1,r=2,s=3,o=4,spc=5,e=6,m=7,spc=8,V=9,i=10,d=11,e=12,0=13,spc=14,P=15,y=16,t=17,h=18,o=20,n=21
-#exemplo 1
-frase[9] O Python vai indentificar na Str a letra (V)  
+
+#exemplo 1 frase='Curso em Video  Python'
+frase[9] O Python vai indentificar na String a letra (V) pelo seu indice 
 Seguindo a sequencia o numero 0 será a letra (C) da palavra 'Curso' 
 
-#exemplo 2 
+#exemplo 2 frase='Curso em Video  Python'
 frase[9:13] O Python vai identificar na string do 9 ao 13 e excluindo do 13 paratrás formando (Vide).
-Ou seja ele pede para o usuario pegar na cadeia de texo iniciar ao 9 e ie ate o 12 excluindo o 13
+Ou seja ele pede para o usuario pegar na cadeia de texo iniciar ao 9 e ie ate o 12 no indice e excluindo o 13
 
-#exemplo3
-frase[9:21] O Python vai identificar na String do 9 ao 21 pois é o limite indo de 0 a 20 
+#exemplo 3 frase='Curso em Video  Python'
+frase[9:21] O Python vai identificar no indice da String do 9 ao 21 pois é o limite indo de 0 a 20 
 Ou seja não importa o valor acima ele só irá ate o limite da string
-mas´não é aconselhavel por valores acimas da máxima
+mas´não é aconselhavel por valores acimas da máxima'
 
-#exemplo4
+#exemplo 4 frase='Curso em Video  Python'
 frase[9:21:2] O Python vai identificar na String do 9 ao 21 pulando de 2 em 2 
 No caso na cadeia de texto seria (V,d,o,P,T,O) ele vai pular de duas casas de 9 a 21
  
+#exemplo 5 frase='Curso em Video  Python' 
 frase[:5] Quando omite o valor inicial iniciando por : ele começa do caractere 0 a 5 
 mostrando a palavra (Curso) lembrando que o espaço 5 da Str sera excluido
 
+#exemplo 6 frase='Curso em Video  Python'
 frase[15:] No Python quando nao tem um valor final e apenas (:) ele pega do caractere 15 até o final
 Lembrando que oo final é o caractere é o numero 20 
 
+#exemplo 7 frase='Curso em Video  Python'
 frase[9::3] 9: Irá iniciar no caractere 9 e ira aé o final, 
 :3 O Python irá pular de 3 em 3 (V,e,P,h) mostrando esses 3 Caracteres 
 
 #OPERAÇÃO DE ANÁSILE
 Analisar uma cadeia de texto ou Str é saber informações sobre a mesma
 
-#Exemplos de Analisadores de Str
-'Curso em Video Python'
+#Exemplos de Analisadores de String
+frase='Curso em Video Python'
 
 * Utilizando a funcionaçidade  (.len()) vem de  comprimento ou qual é o comprimento da Str 
 len[frase] O len da cadeia de texto tem 21 caracteres na frase 'Curso em Video de Pyhon'
@@ -68,7 +76,7 @@ frase.find('Android') como esta Str não esta na cadeia de texo do exemplo ele v
 Via de regra uma lista de String é imutável não é possivel mudar ela 
 Mas é possivel mudar ela através de métodos e não nos seus elementos
 
-*  Utilizando  funcionalidae (.replace()) replace é reposicionar\trocar  
+*  Utilizando  funcionalidae (.replace()) replace é reposicionar ou trocar  
 frase.replace('Python','Android') O Python irá reposicionar ou trocar a str 'Python' po'Android'
 será substituido de uma forma secundaria 
 
@@ -78,7 +86,7 @@ frase.upper()==('CURSO EM VIDEO PYTHON')
 
 * Utilizando metodo (.lower() ) Irá manter os caracteres em minusculas 
 E mudar os caracteres em maiúsculas para minusculas 
-frase.lower[]==('curso e video Pthon')
+frase.lower())==('curso em video python')
 
 * Utilizando método de função (.capitalize() ) O captalize vai jogar do 1 ate o fim para minusculas
 Deixando somente o caractere (0) em maiuscula 
@@ -88,8 +96,10 @@ frase.capitalize()==('Curso em video de python')
 Aonde estiver espaços ele vai inciar apos os espaços com uma letra maiuscula
 frase.title()== ('Curso Em Video De Python')
 
+#TRANSFORMAÇÃO 
+frase=('Aprenda Pyton')
 * Utlizando método de função (.strip() Ele vai remover os espaços inutes da String
-exemplo  frase==('  Apremda Python   ') 
+exemplo  frase==('  Apremda Python  ') 
 Neste caso o caractere (a) esta na posição 3
 frase.strip() ('Aprenda Python') o caractere (a) agora esta na posição 0 da sequencia  
 E termina apos o ultimo caractere da sequencia 
@@ -104,17 +114,17 @@ frase.(lstrip() == ('Aprenda Python  ')
 #DIVISÃO DE CARACTERES 
 Ele vai dividir as cadeias de texto
 
-frease=('Curso em Video  Python')
+frase=('Curso em Video  Python')
 
-* Utilizando a Funcionalidade (.split[])  Um split faz uma divisão aonde tem espaços na string
+* Utilizando a Funcionalidade (.split())   Um split faz uma divisão aonde tem espaços na string,vai ocorrer uma divisao dentro da String considerando os espaços. Ele vai refazer os indices e criar listas separadas. 
 Ele vai gerar tecnicamente listas 
-frase.spçit()= Curso /  em / Video / Python 
-lista1 Curso 
+frase.spçit()= Curso /  em / Video / Python  
+lista1 Curso  
 lista2  em
 Lista3  Video 
 Lista4  Python 
-*Quando s tem string separadas em listas pode se usar um (.join[]  que significa juntar 
-('-').join(frase)=('Curso-em-Video-Python)
+*Quando s tem string separadas em listas pode se usar um ( .join() )  que significa juntar 
+'-'.join(frase)=('Curso-em-Video-Python)
 
 
 
