@@ -129,9 +129,7 @@ Lista4  Python
 
 
 #manipulando textos testes
-"""
- 
-
+  
 
 frase=('Curso em Video Python')
 print(frase)
@@ -195,7 +193,6 @@ print(frase.rstrip())
 frase=('Curso em Video Python')
 print(frase.lstrip())
 
-"""
 
 #DIVISÃO
 frase=('Curso em Video Python')
