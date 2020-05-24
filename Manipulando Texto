@@ -128,6 +128,82 @@ Lista4  Python
 '-'.join(frase)=('Curso-em-Video-Python)
 
 
+#manipulando textos testes
+"""
+ 
+
+
+frase=('Curso em Video Python')
+print(frase)
+
+
+frase=('Curso em Video Python')
+print(frase[9])
+
+frase=('Curso em Video Python')
+print(frase[9:13])
+
+frase=('Curso em Video Python')
+print(frase[0:21:2])
+
+frase=('Curso em Video Python')
+print(frase[:21])
+
+frase=('Curso em Video Python')
+print(frase[0:])
+
+frase=('Curso em Video Python')
+print(frase.count('o'))
+
+frase=('Curso em Video Python')
+print(frase.count('o',0,13))
+
+frase=('Curso em Video Python')
+print(frase.find('deo'))
+
+frase=('Curso em Video Python')
+print(frase.find('Android'))
+
+frase=('Curso em Video Python')
+print('Curso'in frase)
+
+#TRANSFORMAÇÃO exemplo
+
+frase=('Curso em Video Python')
+print(frase.replace('Python','Android'))
+
+frase=('Curso em Video Python')
+print(frase.upper())
+
+frase=('Curso em Video Python')
+print(frase.lower())
+
+frase=('Curso em Video Python')
+print(frase.capitalize())
+
+frase=('Curso em Video Python')
+print(frase.title())
+
+
+#TRANSFORMAÇÃO
+frase=(   '   Curso em Video Python   '   )
+print(frase.strip())
+
+frase=('  Curso em Video Python   ')
+print(frase.rstrip())
+
+frase=('Curso em Video Python')
+print(frase.lstrip())
+
+"""
+
+#DIVISÃO
+frase=('Curso em Video Python')
+print(frase.split(),('-'.join(frase)))
+#faz gerar listas dividindo uma String
+
+
+
 
 
 
