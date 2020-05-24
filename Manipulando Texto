@@ -123,6 +123,7 @@ lista1 Curso
 lista2  em
 Lista3  Video 
 Lista4  Python 
+1'Curso',2'em',3'Video',4'Python'
 *Quando s tem string separadas em listas pode se usar um ( .join() )  que significa juntar 
 '-'.join(frase)=('Curso-em-Video-Python)
 
