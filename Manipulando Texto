@@ -73,6 +73,7 @@ frase.find('Android') como esta Str não esta na cadeia de texo do exemplo ele v
 
 
 #TRANSFORMAÇÃO DE CARACTERES
+
 Via de regra uma lista de String é imutável não é possivel mudar ela 
 Mas é possivel mudar ela através de métodos e não nos seus elementos
 
@@ -127,91 +128,146 @@ Lista4  Python
 *Quando s tem string separadas em listas pode se usar um ( .join() )  que significa juntar 
 '-'.join(frase)=('Curso-em-Video-Python)
 
+#FATIAMENTO
 
-#manipulando textos testes
-  
-
-frase=('Curso em Video Python')
-print(frase)
-
-
-frase=('Curso em Video Python')
+frase=str('Curso em video Python ')
 print(frase[9])
+#Ele vai identificar dentro da cadeia de caracter
+#Somente a letra( 9 ) no ídice,que no caso é a letra ( V )maiuscula
+#lembrando que o indice ( 9 ) é caracter ( 10 ) da variavel
 
-frase=('Curso em Video Python')
+frase=str('Curso em Video Python')
 print(frase[9:13])
+#Ele inicia no indice ( 9 ) e para no ( 13 ) excluindo o ( 13 )
+#Formando a palavra, (Vide)
+#Somente do indice 9 ao 12 serão selecionados
 
-frase=('Curso em Video Python')
-print(frase[0:21:2])
+frase=str('Curso em Video Python')
+print(frase[9:21])
+#Ele começará no 9 e irá até o 20
+#Automaticamente ele não irá considerar o indice 20
+#Mas a comunidade aconselha nao colocar um valor acima da maxima da variavel
+#Lembrando que foram criados apenas 21 indices mas eles iniciam no 0 indo de 0 a 20
 
-frase=('Curso em Video Python')
-print(frase[:21])
+frase='Curso em Video Python'
+print(frase[9:21:2])
+#Ele começará no 9 e irá até o 20 (9:)
+#Automaticamente ele não irá considerar o indice 20,(21)
+# Ele irá pular de 2 em 2,(:2)
+#Os vvalores saltados serão ignorados pela variavel
+ 
+frase='Curso em Video Python'
+print(frase[:5])
+#(:)Quando nao se declara um valor de inicio antes dos (:)
+# O Python irá iniciar no indice ( 0 ),( : = 0)
+# (5)Irá parar no indice 5,formando a palavra (curso)
 
-frase=('Curso em Video Python')
-print(frase[0:])
+frase='Curso em Video Python'
+print(frase[15:])
+# Ira ter inicio no indice ( 15 ) comletra ( P )
+# E por nao ter um variavel após ( : ) ele vai até o final do indice
+#Formando a palavra ( Python)
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
+print(frase[9::3])
+# Ele irá iniciar no índice ( 9: ) e ira ate o final
+#  ( :3 ) Irá pular de 3 em 3
+#Formando a palavra ( VePh )
+
+#ANALISANDO UMA STRING
+
+frase=str('Curso em Video Python')
+print(len(frase))
+# O Python vai inicar o comprimento da frase
+# Totalizando 21 caracteres
+
+frase='Curso em Video Python'
 print(frase.count('o'))
+# O Pyhon vai indicar na cadeia de caracteres
+# Quantas vezes aparecem a letra ('o')
+# Resultando no numero,( 3 )
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
 print(frase.count('o',0,13))
+# O Pyhon vai indicar na cadeia de caracteres
+# Quantas vezes aparecem a letra ('o')
+# inciando no indice( 0 ) e indo apenas até o indice ( 13 )
+# Resultando apenas no valor,1
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
 print(frase.find('deo'))
+# Quantas vezes ele encontrou na variavel a str ( 'deo ')
+# Ele ira indicar apenas a posição de inicio no indice
+# indicando a posição ( 11 ) no indice
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
 print(frase.find('Android'))
+# Quantas vezes ele encontrou na variavel a str ( 'deo ')
+# Ele ira indicar apenas a posição de inicio no indice
+# Ele irá retornar com um valor negativo ( -1 )
+# lembrando que o indice inicia no valor ( 0 ) entao posição ( -1 ) nao existe
 
-frase=('Curso em Video Python')
-print('Curso'in frase)
+frase='Curso em Video Python'
+print( 'Curso'in frase)
+# o método ( in ) pergunta se existe o valor na frase
+# Se existir o dado ele volta como ( True )
+# True significa verdadeiro e pode voltar false (falso)
 
-#TRANSFORMAÇÃO exemplo
-
-frase=('Curso em Video Python')
+#TRANSFORMAÇÂO
+frase='Curso em Video Python'
 print(frase.replace('Python','Android'))
+# Replace é reposicionar ou trocar
+# Ele ira substituir de uma forma secundaria (' Python por android')
+# Ira ficar (' curso em Video Android')
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
 print(frase.upper())
+# Ele irá manter os caracteres Maiusculos na string
+# E trocar os que estão em minusculos para maiusculos
+# O valor da variavel ficará : ('CURSO EM VIDEO PYTHON')
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
 print(frase.lower())
+# Ele irá manter os caracteres Minúsculos
+# E trocar os valores que estão em maiusculo por minusculos
+# O valor da variavel ficará: ('curso em video python')
 
-frase=('Curso em Video Python')
+frase='Curso em Video Python'
 print(frase.capitalize())
-
-frase=('Curso em Video Python')
-print(frase.title())
+# Ele irá manter a primeira letra da frase como maiuscula
+# E todas as outras serão minusculas
+# irá ter este resultado ('Curso em video python') 
 
 
 #TRANSFORMAÇÃO
-frase=(   '   Curso em Video Python   '   )
+frase='  Curso em Video Python  '
 print(frase.strip())
+# Ele remove os espaços exedentes 
+# Tanto os espaços sobreçalentes da esquerda quando da direita
 
-frase=('  Curso em Video Python   ')
+frase=   '   Curso em Video Python'
 print(frase.rstrip())
+# Ele remove os espaços excedentes 
+#  A direita da cadeia de caracteres  
 
-frase=('Curso em Video Python')
+frase=   '  Curso em Video Python   '
 print(frase.lstrip())
+# Ele remove os espaços exedentes 
+# A esquerda dacadeia de caracteres 
 
+#DIVISÃO DE STRINGS
+frase='Curso em Video Python'
+print(frase.split())
+# O python irá dividir a String em listas
+# Formando um total de 4 lista cada uma com seu indice individuaç
+# lista1=Curso, lista2=em, Lista3=Video, Lista4=Python
+# Cada uma com uma idexação nova
 
-#DIVISÃO
-frase=('Curso em Video Python')
-print(frase.split(),('-'.join(frase)))
-#faz gerar listas dividindo uma String
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+frase='Curso em Video Python'
+print(frase.split,'-'.join(frase))
+# O python irá dividir a String em listas
+# Formando um total de 4 lista cada uma com seu indice individuaç
+# lista1=Curso, lista2=em, Lista3=Video, Lista4=Python
+# Conseguejuntar os elementoscom ( ''.join() ) 
 
 
