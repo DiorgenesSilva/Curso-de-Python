@@ -1,4 +1,4 @@
- #CONDIÇOES
+#CONDIÇOES
 #SIMPLES E COMPOSTAS
 
 print("""Pense que em uma estrada tem um carro e este carro é controlado por um computador,dando comandos sequenciais para o carro  
@@ -16,7 +16,7 @@ para chegar ao seu ponto de destino com comandos como: Siga,Vire a Direita,Vire 
  carro.vireesquerda()
  carro.siga()
  carro.pare()
- 
+ O comando .carrosia e .carropare ira acontecer sempre.
  Como pode ver se estivesse somente o caminho da esquerda só teria uma forma de chegar pelo computador fazendo a sequencia certa e repetitiva .
  Como sabemos que uma sequenia certa de repetiçao é um algoritimo.
  Mas com a abertura do um novo caminho a direita ,temos  possibilidades diferentes,com funções e comandos diferentes de fazer algo.
@@ -25,20 +25,86 @@ para chegar ao seu ponto de destino com comandos como: Siga,Vire a Direita,Vire 
  O fluxo verde vai executar o programa com  comandos que seria o metodo .viraradireita e o outro verde .viraraesquerda 
  Podemos utilizar como exemplo na programaçao o 'se' podemos fazer condições em um programa de conclusão. 
 
- #Exemplo
- se carro.viraraesquerda                      se  carro.virarasireita 
-   bloco _v_  verdadeiro                          bloco _f_ falso
+ #Exemplo REPRESENTAÇÃO ESTRUTURADA OU IDENTADA
+ Esta estrutura começa cima para baixo e da esquerda para direita
+ 
+ se: carro.viraraesquerda                       
+   bloco _v_  verdadeiro                           
    
-se carro.viraraesquerda                         se  carro,viraradireita
-   carro.siga()                                     carro.siga() 
-   carro.vireaesquerda()                            carro.direita()  
-   carro.siga()                                     carro.siga()
-   carro.vireadireita()                             caroo.viraraesquerda() 
-   carro.siga()                                     carro.siga()
-   carro.vireadireita()                             carro.pare() 
-   carro.siga()
-   carro.vireesquerda()
-   carro.siga()
-   carro.pare()
-    
+se:      carro.viraraesquerda                          
+         carro.siga()                                         
+         carro.vireaesquerda()                                  
+         carro.siga()                                          
+         carro.vireadireita()                                  
+         carro.siga()                                          
+         carro.vireadireita()                                   
+         carro.siga()
+         carro.vireesquerda()
+         carro.siga()
+         carro.pare()
+ 
+ senão:  carro.virarasireita 
+         carro.siga()
+         carro.direita()  
+         carro.siga()
+         caroo.viraraesquerda() 
+         carro.siga()
+         carro.pare() 
+ 
+ Para o Python este ( 'si:' ) é representado  por ( if: ) True  ou ( else:) False
+ 
+ #Exemplo de estrutura condicional ou condição  
+ tempo=int(input('Qunto anos tem o seu carro?'))
+ if tempo<=3:
+     print('Carro novo')
+ else:
+     print('Carro velho')
+ print('___FIM___')
+Exemplo de condição Composta porque tem duas opçoes ou caminhos diferentes
+ 
+ #Exemplo
+ tempo=int(input('Quantos anos tem o seu carro?'))
+ print('carro novo'iftempo<=3'carro velho')
+ print('---FIM---')
+   
     """)
+
+#Pratica
+print('Pratica')
+nome=str(input('Qual é o seu nome?')).strip()
+if nome == 'Diorgenes':
+    print('Que nome lindo você tem!')
+print('Bom dia ,{}'.format(nome))
+#Aqui voce faz a condição simples
+
+#Exemplo 2
+nome=str(input('Qual é o seu nome?')).strip()
+if nome == 'Dio Black':
+    print('Que nome lindo você tem!')
+else:
+    print('Seu nome não é legal')
+print('Bom dia ,{}'.format(nome))
+# Aqui  é uma estrutra condicional composta
+
+#  Exemplo 1
+# Nota Media de Um aluno
+#Exemplo de estrutura de condição composta
+
+n1=float(input('Digite a primeira nota!'))
+n2=float(input('Digite a segunda nota !'))
+m=(n1+n2)/2
+print('A sua média foi {:.1f}'.format(m))
+if m >= 7.0:
+    print('Foi uma média boa continue assim')
+else:
+    print('Sua media foi ruim estude mais')
+ a
+
+#Exemplo 2 
+#Estutura de condicionamento Simplificada
+
+n1=float(input('Digite a primeira nota!' ))
+n2=float(input('Digite a segunda  nota!'))
+m=(n1+n2)/2
+print('A sua média foi {:.1f)'.format(m)
+print('PARABENS'if m >=7.0 else 'ESTUDE MAIS')
