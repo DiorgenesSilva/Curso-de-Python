@@ -1,0 +1,44 @@
+ #CONDIÇOES
+#SIMPLES E COMPOSTAS
+
+print("""Pense que em uma estrada tem um carro e este carro é controlado por um computador,dando comandos sequenciais para o carro  
+para chegar ao seu ponto de destino com comandos como: Siga,Vire a Direita,Vire a esquerda e Pare.
+
+#carro Seguindo o lado esquerdo                #carro seguindo o lado direito
+
+ carro.siga()                                      carro,siga()
+ carro.vireaesquerda()                             carro.direita()  
+ carro.siga()                                      carro.siga() 
+ carro.vireadireita()                              carro.vireaesquerda()
+ carro.siga()                                      carro.siga()
+ carro.vireadireita()                              carro.pare()
+ carro.siga()
+ carro.vireesquerda()
+ carro.siga()
+ carro.pare()
+ 
+ Como pode ver se estivesse somente o caminho da esquerda só teria uma forma de chegar pelo computador fazendo a sequencia certa e repetitiva .
+ Como sabemos que uma sequenia certa de repetiçao é um algoritimo.
+ Mas com a abertura do um novo caminho a direita ,temos  possibilidades diferentes,com funções e comandos diferentes de fazer algo.
+ A grande maioria dos programas utilizam Condições.E com isto eu crio dentro de um mesmo programa dois programas diferentes
+ Criando assim dois fluxos diferentes um fluxo verde e um fluxo vermelho .
+ O fluxo verde vai executar o programa com  comandos que seria o metodo .viraradireita e o outro verde .viraraesquerda 
+ Podemos utilizar como exemplo na programaçao o 'se' podemos fazer condições em um programa de conclusão. 
+
+ #Exemplo
+ se carro.viraraesquerda                      se  carro.virarasireita 
+   bloco _v_  verdadeiro                          bloco _f_ falso
+   
+se carro.viraraesquerda                         se  carro,viraradireita
+   carro.siga()                                     carro.siga() 
+   carro.vireaesquerda()                            carro.direita()  
+   carro.siga()                                     carro.siga()
+   carro.vireadireita()                             caroo.viraraesquerda() 
+   carro.siga()                                     carro.siga()
+   carro.vireadireita()                             carro.pare() 
+   carro.siga()
+   carro.vireesquerda()
+   carro.siga()
+   carro.pare()
+    
+    """)
