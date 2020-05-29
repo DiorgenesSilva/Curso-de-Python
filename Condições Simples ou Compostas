@@ -2,34 +2,34 @@
 #SIMPLES E COMPOSTAS
 
 print("""Pense que em uma estrada tem um carro e este carro é controlado por um computador,dando comandos sequenciais para o carro  
-para chegar ao seu ponto de destino com comandos como: Siga,Vire a Direita,Vire a esquerda e Pare.
+para chegar ao seu ponto de destino com comandos como: Siga,Vire a Direita,Vire a esquerda e Pare.Uma estruta sequencial ou um algoritimo.
 
 #carro Seguindo o lado esquerdo                #carro seguindo o lado direito
 
- carro.siga()                                      carro,siga()
- carro.vireaesquerda()                             carro.direita()  
- carro.siga()                                      carro.siga() 
- carro.vireadireita()                              carro.vireaesquerda()
- carro.siga()                                      carro.siga()
- carro.vireadireita()                              carro.pare()
+ carro.siga()                                     carro,siga()
+ carro.vireesquerda()                             carro.direita()  
+ carro.siga()                                     carro.siga() 
+ carro.viredireita()                              carro.vireesquerda()
+ carro.siga()                                     carro.siga()
+ carro.viredireita()                              carro.pare()
  carro.siga()
  carro.vireesquerda()
  carro.siga()
  carro.pare()
- O comando .carrosia e .carropare ira acontecer sempre.
- Como pode ver se estivesse somente o caminho da esquerda só teria uma forma de chegar pelo computador fazendo a sequencia certa e repetitiva .
+ O comando ( .carrosiga ) e ( .carropare ) ira acontecer sempre. Tanto em um quanto em outro 
+ Como pode ver se estivesse somente o caminho da esquerda só teria uma forma de chegar pelo computador fazendo a sequencia, certa e repetitivamente .
  Como sabemos que uma sequenia certa de repetiçao é um algoritimo.
- Mas com a abertura do um novo caminho a direita ,temos  possibilidades diferentes,com funções e comandos diferentes de fazer algo.
+ Mas com a abertura do um novo caminho a direita ,temos  possibilidades diferentes,com funções e comandos diferentes de fazer algo. E isto que são condições ,possibilidades.
  A grande maioria dos programas utilizam Condições.E com isto eu crio dentro de um mesmo programa dois programas diferentes
  Criando assim dois fluxos diferentes um fluxo verde e um fluxo vermelho .
  O fluxo verde vai executar o programa com  comandos que seria o metodo .viraradireita e o outro verde .viraraesquerda 
  Podemos utilizar como exemplo na programaçao o 'se' podemos fazer condições em um programa de conclusão. 
 
- #Exemplo REPRESENTAÇÃO ESTRUTURADA OU IDENTADA
+ #Exemplo REPRESENTAÇÃO ESTRUTURADA CONDICIONAL OU IDENTADA
  Esta estrutura começa cima para baixo e da esquerda para direita
  
  se: carro.viraraesquerda                       
-   bloco _v_  verdadeiro                           
+   bloco _v_  verdadeiro ( if: )   verde                       
    
 se:      carro.viraraesquerda                          
          carro.siga()                                         
@@ -42,7 +42,10 @@ se:      carro.viraraesquerda
          carro.vireesquerda()
          carro.siga()
          carro.pare()
- 
+
+senao: carro.direita
+  bloco _f_ falso   ( else: )  vermelho
+
  senão:  carro.virarasireita 
          carro.siga()
          carro.direita()  
@@ -51,10 +54,13 @@ se:      carro.viraraesquerda
          carro.siga()
          carro.pare() 
  
- Para o Python este ( 'si:' ) é representado  por ( if: ) True  ou ( else:) False
+ Para o Python este ( 'si:' e ('sinao: ) é representado  por :
+ ( if: ) e significa ,True .
+ ( else:) e significa ,False.
  
- #Exemplo de estrutura condicional ou condição  
- tempo=int(input('Qunto anos tem o seu carro?'))
+ #Exemplo abaixo de uma estrutura condicional ou condição composta 
+
+ tempo=int(input('Quanto anos tem o seu carro?'))
  if tempo<=3:
      print('Carro novo')
  else:
@@ -62,9 +68,9 @@ se:      carro.viraraesquerda
  print('___FIM___')
 Exemplo de condição Composta porque tem duas opçoes ou caminhos diferentes
  
- #Exemplo
+ #Exemplo de condição simplificada
  tempo=int(input('Quantos anos tem o seu carro?'))
- print('carro novo'iftempo<=3'carro velho')
+ print('carro novo'iftempo<=3else'carro velho')
  print('---FIM---')
    
     """)
