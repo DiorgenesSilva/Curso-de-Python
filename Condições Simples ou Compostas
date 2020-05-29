@@ -70,7 +70,7 @@ Exemplo de condição Composta porque tem duas opçoes ou caminhos diferentes
  
  #Exemplo de condição simplificada
  tempo=int(input('Quantos anos tem o seu carro?'))
- print('carro novo'iftempo<=3else'carro velho')
+ print('carro novo' if tempo<=3 else 'carro velho')
  print('---FIM---')
    
     """)
