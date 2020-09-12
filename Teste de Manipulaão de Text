@@ -1,0 +1,19 @@
+print("**~~~~ *** MANIPLANDO TEXTO E FATIAMENTO  ***~~~~~ **")
+frase = ('Curso em Video Python')
+frase[9]
+print(frase[9])
+print(frase[9:13])
+print(frase[9:13:2])
+print(frase[9:21])
+print(frase[9:21:2])
+print(frase[:21:2])
+print(frase[:5])
+print(frase[5:])
+print(frase[0:])
+print(frase[::3])
+
+print("="*50)
+
+print(" ***~~~~ ANALISE DE UMA STRING ----*** ")
+print("""Analisar uma String é saber informações sobre ela,por exemplo:
+Tamanho da String,Contar quantas Vogais ou consoantes na Cadeira de Caracteres""")
