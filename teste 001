@@ -1,0 +1,98 @@
+#Utilizando Modulos e Bibliotecas
+print(""" ~~**~~~ Modulos Python ~~~~**~~ """)
+print("""
+   import bebida = Importa todas bebidas da biblioteca,o usuario nao escolhe a bebida  
+  from import bebida = Comanda mais especifico para importar a bebida desejada pelo usuario  
+    
+ 
+""")
+
+
+# import math Biblioteca padrão do Python
+print("""Biblioteca Math é  representada como : Biblioteca Matematica  
+ E a Biblioteca math ja vem com  funcionalidades extras que nao vem padrao no Python
+  
+    math = Biblioteca 
+    ceil  <=  FUNCIONALIDADE = Faz o arredondamento para cima
+    floor <=  FUNCIONALIDADE = Faz o arredondamento para baixo 
+    trunc <= FUNCIONALIDADE  = Faz o trucamento do valor 
+     pow  <= FUNCIONALIDADE  = (power) faz calculo de potencia ou exponeciação 
+    sqrt  <= FUNCIONALIDADE  = (squareroot) Faz calculo de raiz Quadrada 
+  factorial <= FUNCIONALIDADE = Faz 0 Calculo de factorial 
+  
+         import math <= import = Da acesso a todas as FUNCIONALIDADE acima 
+    from math  import sqrt <= from import  = Especifica a FUNCIONALIDADE que o usuario deseja usar       
+    from math import sqrt,ceil <= from import : Especificando mais que uma FUNCIONALIDADE 
+
+ 
+
+
+import math
+num = int(input("Digite um numero:" ))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {:.2f} '.format(num,raiz))
+
+
+import math
+num = int(input("Digite um numero:" ))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {:.2f} '.format(num,math.ceil(raiz)))
+
+
+import math
+num = int(input("Digite um numero:" ))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {:.2f} '.format(num,math.floor(raiz)))
+
+
+
+import math
+num = int(input("Digite um numero:" ))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {:.2f} '.format(num,math.ceil(raiz))
+
+
+from math import  ceil,sqrt
+ num = int(input("Digite um numero:" ))
+raiz =sqrt
+print('A raiz de {} é igual a {:.2f} '.format(num,ceil(raiz))
+
+""")
+print(" ==================================" )
+
+import random
+num = random.random()
+print (num)
+
+print("========================================")
+
+import emoji
+print(emoji.emojize("Ola Mundo :earth_americas:!",use_aliases=True ))
+
+print("===========================================")
+
+print(""" Quebrando num numero  
+Crie um programa  que leia um numero  real qualquer pelo teclado e mostre na tela sua porção inteira""" )
+
+""" Utilizando a BIBLIOTECA  math e todas as suas FUNCIONALIDADES """
+import math
+num = float(input("Digite um numero ")) 
+print("O numero digitado foi {} e a sua porção inteira é {} ".format(num,math.trunc(num)))
+
+"""Utlizando uma FUNCIONALIDADE DA BIBLIOTECA math mais especifica """
+from math import trunc
+num = float(input("Digite um numero  "))
+print("O numero int digitado foi {} e sua porção inteira é {}".format( num,trunc(num)) )
+
+"""Resolvendo sem utilizar Biblioteca ou Funcionalidade """
+num = float(input("Digite um numero  "))
+print("O numero int digitado foi {} e sua porção inteira é {}".format(num,int(num)))
+
+
+
+
+
+
+
+
+
