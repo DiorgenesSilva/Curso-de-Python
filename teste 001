@@ -134,6 +134,34 @@ print("O Angulo de {} tem o COSSENO de {:.2f}".format( angulo,cosseno))
 tangente = tan(radians(angulo))
 print("O Angulo de {} tem a TANGENTE de {:.2f}".format(angulo,tangente))
 
+print("==================================================")
+
+
+print("""Um professor quer sortear um aluno para apagar o quadro 
+  Faça um programa que que ajude ele,lendo o nome deles e escrevendo o nome do escolhido""")
+
+"""Utilizando Biblioteca Random e funcionalidade choice """
+import random
+aluno1 = str("*Primeiro  Aluno* ")
+aluno2 = str("*Segundo Aluno* ")
+aluno3 = str("*Terceiro  Aluno* ")
+aluno4 = str("*Quarto Aluno*  ")
+lista = [aluno1,aluno2,aluno3,aluno4]
+escolhido = random.choice(lista)
+print("O Aluno escolhido foi {}".format(escolhido))
+
+"""Utilizando Biblioteca Random e funcionalidade choice e retorno com comando input """
+from random import choice
+aluno1 = str(input("*Primeiro  Aluno* "))
+aluno2 = str(input("*Segundo Aluno* "))
+aluno3 = str(input("*Terceiro  Aluno* "))
+aluno4 = str(input("*Quarto Aluno*  "))
+lista = [aluno1,aluno2,aluno3,aluno4]
+escolhido = choice(lista)
+print("O Aluno escolhido foi {}".format(escolhido))
+
+
+
 
 
 
