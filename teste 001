@@ -189,7 +189,15 @@ print("O Aluno escolhido foi {}".format(escolhido))
 print(lista) 
  
 print("================================================")
+ 
+ 
+print("Faça um programa em Python que leia e reproduza um arquivo em MP3")
 
+import pygame
+pygame.init()
+pygame.mixer.load('edirock.mp3')
+pygame.mixer.music.play
+pygame.event.wait()
 
 
 
