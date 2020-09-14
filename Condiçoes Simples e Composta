@@ -294,6 +294,20 @@ print("O maior Valor digitado foi {} ".format(maior))
 print("=" * 50)
  
 
+print("""Escreva um programa que pergunte o salari de um funcionario  e calcule o valor de seu aumento 
+       Para salarios superiores a  r$1.250.00,ALCULE UM VALOR DE 10 % de aumento 
+       Para os inferiores ou iguais o aumento é de 15 %   """)
+salario = float(input("Digite o salario R$:"))
+if salario <= 1.250:
+    novo = salario * (salario * 15 / 100)
+else:
+    novo = salario * (salario * 10 / 100)
+print(" Com o reajuste o fncionario passa a ganhar R${:.2F}".format(novo))
+print("-=-FIM-=-")
+
+print("=" * 50)
+
+
 
 
 
