@@ -115,5 +115,20 @@ separa = nome.split()
 print(separa)
 print( "O seu primeiro nome é {} e tem {} letras".format(separa[0],len(separa[0])))
 
-print("="*50)
+print("="*50)  
+  
+print(""" Crie um program aue leia o nome de uma cidade 
+     E diga ou não se ela começa com santo : """)
+cidade = str(input('Digite uma cidade?')).strip()
+print(cidade[:5].upper() == "SANTO")
+
+print("=="*25)
+
+print(""" Crie um programa que leia o nome de uma pessoa 
+  E diga se ele tem Silva no seu nome""" )
+nome = str(input("O seu nome tem Silva ?"))
+print("O seu nome tem Silva {}".format("Silva" in nome.upper( )))
+
+
+
 
