@@ -252,9 +252,44 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
 else:
     print("Ele nao é bisexto ")
 
+rint("=" * 50)
+
+print("Utilizando estrutura Composta if e else ,and,or ")
+print("""Faça umprograma que leia um ano qualquer e mostre na tela se ele é Bisexto
+     Coloque  0 para analisar  da data do ano atual """)
+from datetime import date
+
+if ano == 0:
+    ano = date.today().year
+ano = int(input('Qual ano voce vai analisar:'))
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print("Ele é bisexto ")
+else:
+    print("Ele nao é bisexto ")
+
 print("-=-FIM-=-")
 
+print("Façaum program aque leia 3 numeros  e mostre na tela qua lé o maior e o Menor  ")
+a = int(input("Primeiro Valor:"))
+b = int(input("Segundo Numero:"))
+c = int(input("Terceiro Numero:"))
+# vrificando quem é o menor
+menor = a
+if b < a and b < c:
+    menor = b
+if c < a and c < b:
+    menor = c
+print("O menor valor digitado foi {}".format(menor))
+# resolvenddo o mair valor
+maior = a
+if b > a and b > a:
+    maior = b
+if c > a and c > b:
+    maior = c
+print("O maior Valor digitado foi {} ".format(maior))
 
+print("=" * 50)
+ 
 
 
 
