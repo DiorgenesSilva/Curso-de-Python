@@ -201,6 +201,124 @@ print("-=-FIM-=-")
 
 print("="*50)
 
+ 
+
+print("=" * 50)
+
+print("""Faça um algoritomo computacional,em pseudo-codigo em Python
+       Que pergunte a distancia de uma viagem em KM.Calcule o preço da viagem .
+      Cobrando R$0.50  por Kmm para Viagens até 200Km e R$0.45 para viagens longas  """)
+print("Utilizando estrutura composta is e else")
+distancia = float(input("Qual a distancia percoriida em Km:"))
+print(" Voce esta prestes a começar uma viagem de {} Km".format(distancia))
+if distancia >= 200:
+    preço = (distancia * 0.50)
+else:
+    preço = (distancia * 0.45)
+print("O preço da passagem sera de R${}".format(preço))
+print("Tenha uma otima Viagem !!")
+
+print("=" * 50)
+
+print("Utilizando estrutura composta is e else forma simplificada ")
+distancia = float(input("Qual a distancia percoriida em Km:"))
+print(" Voce esta prestes a começar uma viagem de {} Km".format(distancia))
+preço = (distancia * 0.50) if distancia <= 200 else (distancia * 0.45)
+print("O preço da passagem sera de R${}".format(preço))
+print("Tenha uma otima Viagem !!")
+
+
+print("="*50)
+
+print("Utilizando estrutura Composta if e else ,and ,or")
+print("Faça umprograma que leia um ano qualquer e mostre na tela se ele é Bisexto")
+ano = int(input('Qual ano voce vai analisar:'))
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print("Ele é bisexto ")
+else:
+    print("Ele nao é bisexto ")
+
+print("-=-FIM-=-")
+
+print("=" * 50)
+
+
+print("Utilizando estrutura Composta if e else ,and,or ")
+print("""Faça umprograma que leia um ano qualquer e mostre na tela se ele é Bisexto
+     Coloque  0 para analisar  da data do ano atual """)
+from datetime import  date
+if ano == 0:
+    ano = date.today().year
+ano = int(input('Qual ano voce vai analisar:'))
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print("Ele é bisexto ")
+else:
+    print("Ele nao é bisexto ")
+
+rint("=" * 50)
+
+print("Utilizando estrutura Composta if e else ,and,or ")
+print("""Faça umprograma que leia um ano qualquer e mostre na tela se ele é Bisexto
+     Coloque  0 para analisar  da data do ano atual """)
+from datetime import date
+
+if ano == 0:
+    ano = date.today().year
+ano = int(input('Qual ano voce vai analisar:'))
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print("Ele é bisexto ")
+else:
+    print("Ele nao é bisexto ")
+
+print("-=-FIM-=-")
+
+print("=" * 50)
+
+
+print("Faça um program aque leia 3 numeros  e mostre na tela qual é o maior e o Menor  ")
+a = int(input("Primeiro Valor:"))
+b = int(input("Segundo Numero:"))
+c = int(input("Terceiro Numero:"))
+# vrificando quem é o menor
+menor = a
+if b < a and b < c:
+    menor = b
+if c < a and c < b:
+    menor = c
+print("O menor valor digitado foi {}".format(menor))
+# resolvenddo o mair valor
+maior = a
+if b > a and b > a:
+    maior = b
+if c > a and c > b:
+    maior = c
+print("O maior Valor digitado foi {} ".format(maior))
+
+print("=" * 50)
+ 
+
+print("""Escreva um programa que pergunte o salari de um funcionario  e calcule o valor de seu aumento 
+       Para salarios superiores a  r$1.250.00,ALCULE UM VALOR DE 10 % de aumento 
+       Para os inferiores ou iguais o aumento é de 15 %   """)
+salario = float(input("Digite o salario R$:"))
+if salario <= 1.250:
+    novo = salario * (salario * 15 / 100)
+else:
+    novo = salario * (salario * 10 / 100)
+print(" Com o reajuste o fncionario passa a ganhar R${:.2F}".format(novo))
+print("-=-FIM-=-")
+
+print("=" * 50)
+ 
+
+
+
+
+
+ 
+
+
+
 
 
 
