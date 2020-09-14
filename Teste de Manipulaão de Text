@@ -52,3 +52,50 @@ print(frase.lstrip())
 print(".lstrip():>> Ele vai remover os espaços a mais a esquerda da cadeia de caractere")
 
 print("="*50)
+
+
+print("**~~**FUNCIONALIDADE DE DIVISÃO DA STRING**~~** ")
+print(frase.split())
+print(""" .spllit():>>  Por padrao um solit() ,é feito nos seus espaços
+vai ocorrer uma dvisão da sua cadeia de caracteres, cada palara recebe indexação nova 
+Ele vai refazer os indices, ele vai criar uma lista para cada cadeia peço espaço 
+ """)
+print("-".join(frase))
+print(".join ():>> Ele iria me gerar uma string unica aonde existe espaços em branco na cadeia de carcatere  ")
+
+print("="*50)
+print("~~Revisando conteudo~~")
+print(frase)
+print([3])
+print(frase[:3])
+print(frase[:21:2])
+
+print("="*50)
+
+print( frase.count('o'))
+print(frase.upper().count("o"))
+print(len(frase))
+print(len(frase.strip()))
+print(len(frase.lstrip()))
+print(len(frase.rstrip()))
+
+print("="*50 )
+
+print(frase)
+frase = frase.replace("Python","Android")
+print(frase)
+print("Curso" in frase)
+print(frase.find("Video"))
+print(frase.lower().find("Video"))
+print(frase.split())
+
+print("="*50)
+
+frase = frase.replace("Android","Python")
+dividido = frase.split()
+print(dividido)
+print(dividido[0])
+print(dividido[2][3])
+
+
+print("="*50)
