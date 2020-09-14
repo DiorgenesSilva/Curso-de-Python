@@ -128,3 +128,28 @@ else:
     print("Voce falhou! estude mais ")
 
 print("=" *50)        
+
+
+
+print("Media final de um aluno estrutura de condição composta ")
+nota1 = float(input('Digote a primeira nota:'))
+nota2 = float(input("Digite Segunda nota : "))
+media = (nota1 + nota2)/2
+print("A sua media final foi {}".format(media))
+if media >= 6.0:
+    print("Parabens!! Voce foi aprovado.  ")
+else:
+    print("Voce falhou! Estude mais ")
+
+print("="*50)
+
+print("Nota final de um aluno estrutura codição  simples")
+nota1 = float(input("Digite a primeira nota:"))
+nota2 = float(input("Digite a Segunda nota:"))
+media = (nota1 + nota2 )/2
+print("Parabens!Aprovado"if media >= 6.0 else " Reprovado ! Estude mais")
+
+print("="*50)
+
+
+
