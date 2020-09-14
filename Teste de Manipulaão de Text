@@ -101,3 +101,19 @@ print(dividido[2][3])
 print("="*50)
  
 print("**~~~** EXERCICIOS DE MANIPULAÇÃO DE TEXTO **~~~**")
+print("""01 Crie um program aque leia o nome completo de uma pessoa e mostre:
+:> O nome com as letras maiuscukas e minusculas: 
+:> Quantas letras tem ao todo  sem considerar espaços: 
+:> Quantas letras tem o primeiro  nome :  """)
+nome = str(input("Qual é o seu nome ?")).strip()
+print("Analisando o seu nome em maiusculas é:{}".format(nome.upper()))
+print("Analisando o seu nome em minusculas é {} :".format(nome.lower()))
+print("Analisando o seu nome ao todo,ele possui {} letras".format(len(nome)))
+print("Analisando o seu nome ao todo, ele possui {} letras".format(len(nome)-nome.count(" ")))
+print("O seu primeiro nome tem {}".format(nome.find(" ")))
+separa = nome.split()
+print(separa)
+print( "O seu primeiro nome é {} e tem {} letras".format(separa[0],len(separa[0])))
+
+print("="*50)
+
