@@ -75,30 +75,7 @@ print('___FIM___')
  print('---FIM---')
 print("="*50)
 
-print("**~~**ESTRUTURA DE CONDIÇÃO **~~**")
-print("="*50)
-
-print("Estutura de Condiçao Simplificada if e else ")
-tempo = int(input("quanto tempo tem o seu carro :? "))
-if tempo <=3:
-     print("Carro Novo")
-else:
-     print("Carro Velho")
-     print("***FIM*** ")
-
-print("="*50 )
-
-carro = int(input("quanto tempo tem o seu carro :? "))
-print("carro novo" if carro <= 3 else "Carro Velho")
-print("***FIM***")
-
-print("="*50 )
-
- print("**~~~***EXERCICIOS DE ESTRUTURAS DE CONDIÇÃO SIMPLES E COMPOSTA")
-
- print("="*50)
-
-print("**~~**ESTRUTURA DE CONDIÇÃO **~~**")
+ print("**~~**ESTRUTURA DE CONDIÇÃO **~~**")
 print("=" * 50)
 
 print("Estutura de Condiçao Simplificada = if e  else estrutura condiçao composta  ")
@@ -116,23 +93,29 @@ print("carro novo" if carro <= 3 else "Carro Velho")
 print("***FIM***")
 
 print("=" * 50)
- 
 
-nota1 = float(input('Digote a primeira nota:'))
-nota2 = float(input("Digite Ssegunda nota : "))
-media = (nota1 + nota2)/2
-print("A sua media final foi {}".format(media ))
-if media >= 6.0:
-    print("Parabens foi aprovado ")
+print("**~~~***EXERCICIOS DE ESTRUTURAS DE CONDIÇÃO SIMPLES E COMPOSTA")
+print("=" * 50)
+
+print("Estutura condicional simples ")
+nome = str(input("Digite o seu nome ")).strip().upper()
+if nome == "DIO":
+    print("Belo nome")
+print("Bom dia !".format(nome))
+
+print("="*50)
+nome = str(input("Digite o seu nome")).strip().upper()
+if nome =="FAUSTINO":
+    print("Nome de Respeito !  ")
 else:
-    print("Voce falhou! estude mais ")
+    print("Seu nome é normal !  ")
+print("FIM")
 
-print("=" *50)        
-
+print("="*50)
 
 
 print("Media final de um aluno estrutura de condição composta ")
-nota1 = float(input('Digote a primeira nota:'))
+nota1 = float(input('Digite a primeira nota:'))
 nota2 = float(input("Digite Segunda nota : "))
 media = (nota1 + nota2)/2
 print("A sua media final foi {}".format(media))
@@ -143,14 +126,67 @@ else:
 
 print("="*50)
 
+
 print("Nota final de um aluno estrutura codição  simples")
 nota1 = float(input("Digite a primeira nota:"))
 nota2 = float(input("Digite a Segunda nota:"))
 media = (nota1 + nota2 )/2
 print("Parabens!Aprovado"if media >= 6.0 else " Reprovado ! Estude mais")
 
+print("="*50 )
+
+print(""" Escreva um program aque faça o computador gerar um numero de 0 a 5 
+  E peça para o usuario descobrir que numero foi escolhido pelo computador.
+  O computador devera escrever na tela se usuario ganhou ou perdeu  """)
+
+
+from random import  randint #utilizando modulo random e funcionalidade radint
+computador =randint( 0 , 5 ) #faz o computador gerar um numero aleatorio
+print("-=-"*20)
+print("Vou pensar em um numero entre 0 a 5 .Tente adivinhar qual será: ")
+print("-=-"*20)
+jogador = int(input("Em qual numero eu pensei ?")) #Jogador tenta adivinhar
+if jogador == computador:
+    print("Parabens !! Voce acertou ")
+else:
+    print("Voce Errou!! Tente outra vez ")
+print("-=-FIM-=-")
+
 print("="*50)
 
+
+from random import  randint
+from time import sleep #utilizando biblioteca time e funcionalidade sleep
+computador =randint( 0 , 5 ) #faz o computador gerar um numero aleatorio
+print("-=-"*20)
+print("Vou pensar em um numero entre 0 a 5 .Tente adivinhar qual será: ")
+print("-=-"*20)
+jogador = int(input("Em qual numero eu pensei ?")) #Jogador tenta adivinhar
+print( "PROCESSANDO...")
+sleep(3)
+if jogador == computador:
+    print("**Parabens** !! Voce acertou ")
+else:
+    print("*Voce Errou*!! Tente outra vez ")
+print("-=-FIM-=-")
+
+print("="*50 )
+
+print("""Faça um progama eu pseudo codigo que leia a VELOCIDADE de um carro :
+      SE ele ultrapassar 80Km/h.Mostre uma mensagem :
+       Dizendo que ele foi multado .
+     A multa vai custar R$7.00 para cada Km exedido pelo carro.  """)
+print("Utilizando estrutura simples")
+velocidade = float(input("Qual a velocidade atual do carro :?"))
+if velocidade > 80:
+    print("Atenção voce foi MULTADO !! Voce ultrapassou o limite permitido de 80Km/h .Dirija com Cuidado")
+    multa = (velocidade - 80) * 7
+    print("VOCE FOI  MULTADO! Voce deve pagar o valor de R${} pela MULTA recebida!!".format(multa))
+
+print(" Tenha um bom dia !! dirija com segurança ?")
+print("-=-FIM-=-")
+
+print("="*50)
 
 
 
