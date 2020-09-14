@@ -17,3 +17,38 @@ print("="*50)
 print(" ***~~~~ ANALISE DE UMA STRING ----*** ")
 print("""Analisar uma String é saber informações sobre ela,por exemplo:
 Tamanho da String,Contar quantas Vogais ou consoantes na Cadeira de Caracteres""")
+
+print(len(frase) )
+print(" len():>> Significa comprimento da frase ")
+print(frase.count("o"))
+print(frase.count("o",0,13))
+print(" count():>>Vai contar quantas vezes tem uma determinada string na cadeia de caratere ")
+print(frase.find("deo"))
+print(frase.find("Android"))
+print("""  find()::>> Vai dizer em que posição da string ele inicia na cadeia de caracteres."
+      "quando é colocado m valor inexistente ele volta (-1)""")
+print("Curso"in frase)
+print("curso"in frase)
+print("in:>> Ele vai retornar um valor logico True/False se existe na palavra na frase  ")
+
+print("""~~~*** Tranformação de uma String ***~~~~
+  Via de regra uma Lista de String é imutavel,mas podemos muda-la através de metodos.
+     Nao conseguimos mexer direto nos elemetos   """)
+frase.replace("Python","Android")
+print( ".replace():>> Ele ira substituir  na variavel Frase , a cadeia Python por Android" )
+print(frase.upper())
+print(".upper():>>Ele ira mater as letras maiusculas na cadeia de caractere e ira jogar todas que estao em maiusculas para minusculas")
+print(frase.lower())
+print(".lower(): forma analoga  ele ira manter as strings em minuscula e ogar as maiusculas para minusculas ")
+print(frase.capitalize())
+print(".capitalize:>> Ele vai gogar todos caractere para minuscua e apenas a primeira sera maiuscula.")
+print(frase.title())
+print(".tifle():>> Ele vai fazer um analise mais profunda,com uma quebra atraves dos espaços deixando as iniciais de cada em maiuscula   ")
+print(frase.strip())
+print(".strip():>> Ele vai remover todos espaços exedentes na cadeia de caractere ")
+print(frase.rstrip())
+print(".rstrip():>> Ele vai eliminar os espaços amais a direita da cadeia de caractere   ")
+print(frase.lstrip())
+print(".lstrip():>> Ele vai remover os espaços a mais a esquerda da cadeia de caractere")
+
+print("="*50)
