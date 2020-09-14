@@ -186,8 +186,29 @@ if velocidade > 80:
 print(" Tenha um bom dia !! dirija com segurança ?")
 print("-=-FIM-=-")
 
+
 print("="*50)
 
+print("""Faça um programa e Python,que leia um numero inteiro
+            E mostre na tela se ele é Par ou Impar """)
+numero = int(input("Digite um numero :"))
+resultado = (numero % 2 )
+if resultado == 0:
+    print("O resuldao {} é par ".format(numero))
+else:
+    print("o numero {} é Impar ".format(numero))
+print("-=-FIM-=-")
+
+print("="*50)
+
+
+
+
+
+
+
+
+ 
 
 
 
