@@ -1,0 +1,266 @@
+ # CONDIÇOES
+# SIMPLES E COMPOSTAS
+
+print("""Pense que em uma estrada tem um carro e este carro é controlado por um computador,dando comandos sequenciais para o carro  
+para chegar ao seu ponto de destino com comandos como: Siga,Vire a Direita,Vire a esquerda e Pare.Uma estruta sequencial ou um algoritimo.
+
+#carro Seguindo o lado esquerdo                #carro seguindo o lado direito
+
+ carro.siga()                                     carro,siga()
+ carro.vireesquerda()                             carro.direita()  
+ carro.siga()                                     carro.siga() 
+ carro.viredireita()                              carro.vireesquerda()
+ carro.siga()                                     carro.siga()
+ carro.viredireita()                              carro.pare()
+ carro.siga()
+ carro.vireesquerda()
+ carro.siga()
+ carro.pare()
+ O comando ( .carrosiga ) e ( .carropare ) ira acontecer sempre. Tanto em um quanto em outro 
+ Como pode ver se estivesse somente o caminho da esquerda só teria uma forma de chegar pelo computador fazendo a sequencia, certa e repetitivamente .
+ Como sabemos que uma sequenia certa de repetiçao é um algoritimo.
+ Mas com a abertura do um novo caminho a direita ,temos  possibilidades diferentes,com funções e comandos diferentes de fazer algo. E isto que são condições ,possibilidades.
+ A grande maioria dos programas utilizam Condições.E com isto eu crio dentro de um mesmo programa dois programas diferentes
+ Criando assim dois fluxos diferentes um fluxo verde e um fluxo vermelho .
+ O fluxo verde vai executar o programa com  comandos que seria o metodo .viraradireita e o outro verde .viraraesquerda 
+ Podemos utilizar como exemplo na programaçao o 'se' podemos fazer condições em um programa de conclusão. 
+
+ #Exemplo REPRESENTAÇÃO ESTRUTURADA CONDICIONAL OU IDENTADA
+ Esta estrutura começa cima para baixo e da esquerda para direita
+
+ se: carro.viraraesquerda                       
+   bloco _v_  verdadeiro ( if: )   verde                       
+
+se:      carro.viraraesquerda                          
+         carro.siga()                                         
+         carro.vireaesquerda()                                  
+         carro.siga()                                          
+         carro.vireadireita()                                  
+         carro.siga()                                          
+         carro.vireadireita()                                   
+         carro.siga()
+         carro.vireesquerda()
+         carro.siga()
+         carro.pare()
+
+senao: carro.direita
+  bloco _f_ falso   ( else: )  vermelho
+
+ senão:  carro.virarasireita 
+         carro.siga()
+         carro.direita()  
+         carro.siga()
+         caroo.viraraesquerda() 
+         carro.siga()
+         carro.pare() 
+
+ Para o Python este ( 'si:' e ('sinao: ) é representado  por :
+ ( if: ) e significa ,True .
+ ( else:) e significa ,False.
+
+
+print('Exemplo 1 abaixo de uma estrutura condicional ou condição composta')
+
+tempo = int(input('Quanto anos tem o seu carro?'))
+if tempo <=3:
+     print('Carro novo')
+else:
+     print('Carro velho')
+print('___FIM___')
+#Exemplo de estrutura de  condição Composta porque tem duas opçoes e caminhos diferentes if: , else:
+
+ #'Exemplo 2  abaixo de estrutura condicional e condição simplificada')
+ tempo=int(input('Quantos anos tem o seu carro?'))
+ print('carro novo' if tempo<=3 else 'carro velho')
+ print('---FIM---')
+print("="*50)
+
+ print("**~~**ESTRUTURA DE CONDIÇÃO **~~**")
+print("=" * 50)
+
+print("Estutura de Condiçao Simplificada = if e  else estrutura condiçao composta  ")
+tempo = int(input("quanto tempo tem o seu carro :? "))
+if tempo <= 3:
+    print("Carro Novo")
+else:
+    print("Carro Velho")
+    print("***FIM*** ")
+
+print("=" * 50)
+
+carro = int(input("quanto tempo tem o seu carro :? "))
+print("carro novo" if carro <= 3 else "Carro Velho")
+print("***FIM***")
+
+print("=" * 50)
+
+print("**~~~***EXERCICIOS DE ESTRUTURAS DE CONDIÇÃO SIMPLES E COMPOSTA")
+print("=" * 50)
+
+print("Estutura condicional simples ")
+nome = str(input("Digite o seu nome ")).strip().upper()
+if nome == "DIO":
+    print("Belo nome")
+print("Bom dia !".format(nome))
+
+print("="*50)
+nome = str(input("Digite o seu nome")).strip().upper()
+if nome =="FAUSTINO":
+    print("Nome de Respeito !  ")
+else:
+    print("Seu nome é normal !  ")
+print("FIM")
+
+print("="*50)
+
+
+print("Media final de um aluno estrutura de condição composta ")
+nota1 = float(input('Digite a primeira nota:'))
+nota2 = float(input("Digite Segunda nota : "))
+media = (nota1 + nota2)/2
+print("A sua media final foi {}".format(media))
+if media >= 6.0:
+    print("Parabens!! Voce foi aprovado.  ")
+else:
+    print("Voce falhou! Estude mais ")
+
+print("="*50)
+
+
+print("Nota final de um aluno estrutura codição  simples")
+nota1 = float(input("Digite a primeira nota:"))
+nota2 = float(input("Digite a Segunda nota:"))
+media = (nota1 + nota2 )/2
+print("Parabens!Aprovado"if media >= 6.0 else " Reprovado ! Estude mais")
+
+print("="*50 )
+
+print(""" Escreva um program aque faça o computador gerar um numero de 0 a 5 
+  E peça para o usuario descobrir que numero foi escolhido pelo computador.
+  O computador devera escrever na tela se usuario ganhou ou perdeu  """)
+
+
+from random import  randint #utilizando modulo random e funcionalidade radint
+computador =randint( 0 , 5 ) #faz o computador gerar um numero aleatorio
+print("-=-"*20)
+print("Vou pensar em um numero entre 0 a 5 .Tente adivinhar qual será: ")
+print("-=-"*20)
+jogador = int(input("Em qual numero eu pensei ?")) #Jogador tenta adivinhar
+if jogador == computador:
+    print("Parabens !! Voce acertou ")
+else:
+    print("Voce Errou!! Tente outra vez ")
+print("-=-FIM-=-")
+
+print("="*50)
+
+
+from random import  randint
+from time import sleep #utilizando biblioteca time e funcionalidade sleep
+computador =randint( 0 , 5 ) #faz o computador gerar um numero aleatorio
+print("-=-"*20)
+print("Vou pensar em um numero entre 0 a 5 .Tente adivinhar qual será: ")
+print("-=-"*20)
+jogador = int(input("Em qual numero eu pensei ?")) #Jogador tenta adivinhar
+print( "PROCESSANDO...")
+sleep(3)
+if jogador == computador:
+    print("**Parabens** !! Voce acertou ")
+else:
+    print("*Voce Errou*!! Tente outra vez ")
+print("-=-FIM-=-")
+
+print("="*50 )
+
+print("""Faça um progama eu pseudo codigo que leia a VELOCIDADE de um carro :
+      SE ele ultrapassar 80Km/h.Mostre uma mensagem :
+       Dizendo que ele foi multado .
+     A multa vai custar R$7.00 para cada Km exedido pelo carro.  """)
+print("Utilizando estrutura simples")
+velocidade = float(input("Qual a velocidade atual do carro :?"))
+if velocidade > 80:
+    print("Atenção voce foi MULTADO !! Voce ultrapassou o limite permitido de 80Km/h .Dirija com Cuidado")
+    multa = (velocidade - 80) * 7
+    print("VOCE FOI  MULTADO! Voce deve pagar o valor de R${} pela MULTA recebida!!".format(multa))
+
+print(" Tenha um bom dia !! dirija com segurança ?")
+print("-=-FIM-=-")
+
+
+print("="*50)
+
+print("""Faça um programa e Python,que leia um numero inteiro
+            E mostre na tela se ele é Par ou Impar """)
+numero = int(input("Digite um numero :"))
+resultado = (numero % 2 )
+if resultado == 0:
+    print("O resuldao {} é par ".format(numero))
+else:
+    print("o numero {} é Impar ".format(numero))
+print("-=-FIM-=-")
+ 
+
+print("=" * 50)
+
+print("""Faça um algoritomo computacional,em pseudo-codigo em Python
+       Que pergunte a distancia de uma viagem em KM.Calcule o preço da viagem .
+      Cobrando R$0.50  por Kmm para Viagens até 200Km e R$0.45 para viagens longas  """)
+print("Utilizando estrutura composta is e else")
+distancia = float(input("Qual a distancia percoriida em Km:"))
+print(" Voce esta prestes a começar uma viagem de {} Km".format(distancia))
+if distancia >= 200:
+    preço = (distancia * 0.50)
+else:
+    preço = (distancia * 0.45)
+print("O preço da passagem sera de R${}".format(preço))
+print("Tenha uma otima Viagem !!")
+
+print("=" * 50)
+
+print("Utilizando estrutura composta is e else forma simplificada ")
+distancia = float(input("Qual a distancia percoriida em Km:"))
+print(" Voce esta prestes a começar uma viagem de {} Km".format(distancia))
+preço = (distancia * 0.50) if distancia <= 200 else (distancia * 0.45)
+print("O preço da passagem sera de R${}".format(preço))
+print("Tenha uma otima Viagem !!")
+
+
+print("="*50)
+
+print("Utilizando estrutura Composta if e else ,and ,or")
+print("Faça umprograma que leia um ano qualquer e mostre na tela se ele é Bisexto")
+ano = int(input('Qual ano voce vai analisar:'))
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print("Ele é bisexto ")
+else:
+    print("Ele nao é bisexto ")
+
+print("-=-FIM-=-")
+
+print("=" * 50)
+
+
+print("Utilizando estrutura Composta if e else ,and,or ")
+print("""Faça umprograma que leia um ano qualquer e mostre na tela se ele é Bisexto
+     Coloque  0 para analisar  da data do ano atual """)
+from datetime import  date
+if ano == 0:
+    ano = date.today().year
+ano = int(input('Qual ano voce vai analisar:'))
+if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+    print("Ele é bisexto ")
+else:
+    print("Ele nao é bisexto ")
+
+print("-=-FIM-=-")
+
+
+
+
+
+
+
+ 
+
+
+
