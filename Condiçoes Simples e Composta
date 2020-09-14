@@ -269,7 +269,10 @@ else:
 
 print("-=-FIM-=-")
 
-print("Façaum program aque leia 3 numeros  e mostre na tela qua lé o maior e o Menor  ")
+print("=" * 50)
+
+
+print("Faça um program aque leia 3 numeros  e mostre na tela qual é o maior e o Menor  ")
 a = int(input("Primeiro Valor:"))
 b = int(input("Segundo Numero:"))
 c = int(input("Terceiro Numero:"))
