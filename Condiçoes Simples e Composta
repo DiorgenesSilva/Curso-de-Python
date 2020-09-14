@@ -72,6 +72,31 @@ print('___FIM___')
  #'Exemplo 2  abaixo de estrutura condicional e condição simplificada')
  tempo=int(input('Quantos anos tem o seu carro?'))
  print('carro novo' if tempo<=3 else 'carro velho')
- print
+ print('---FIM---')
+print("="*50)
 
- """)
+print("**~~**ESTRUTURA DE CONDIÇÃO **~~**")
+print("="*50)
+
+print("Estutura de Condiçao Simplificada if e else ")
+tempo = int(input("quanto tempo tem o seu carro :? "))
+if tempo <=3:
+     print("Carro Novo")
+else:
+     print("Carro Velho")
+     print("***FIM*** ")
+
+print("="*50 )
+
+carro = int(input("quanto tempo tem o seu carro :? "))
+print("carro novo" if carro <= 3 else "Carro Velho")
+print("***FIM***")
+
+print("="*50 )
+
+print("**~~~***EXERCICIOS DE ESTRUTURAS DE CONDIÇÃO SIMPLES E COMPOSTA")
+print("="*50)
+
+print("")
+
+    
