@@ -99,3 +99,5 @@ print(dividido[2][3])
 
 
 print("="*50)
+ 
+print("**~~~** EXERCICIOS DE MANIPULAÇÃO DE TEXTO **~~~**")
