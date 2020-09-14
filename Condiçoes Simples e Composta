@@ -94,9 +94,37 @@ print("***FIM***")
 
 print("="*50 )
 
-print("**~~~***EXERCICIOS DE ESTRUTURAS DE CONDIÇÃO SIMPLES E COMPOSTA")
-print("="*50)
+ print("**~~~***EXERCICIOS DE ESTRUTURAS DE CONDIÇÃO SIMPLES E COMPOSTA")
 
-print("")
+ print("="*50)
 
-    
+print("**~~**ESTRUTURA DE CONDIÇÃO **~~**")
+print("=" * 50)
+
+print("Estutura de Condiçao Simplificada = if e  else estrutura condiçao composta  ")
+tempo = int(input("quanto tempo tem o seu carro :? "))
+if tempo <= 3:
+    print("Carro Novo")
+else:
+    print("Carro Velho")
+    print("***FIM*** ")
+
+print("=" * 50)
+
+carro = int(input("quanto tempo tem o seu carro :? "))
+print("carro novo" if carro <= 3 else "Carro Velho")
+print("***FIM***")
+
+print("=" * 50)
+ 
+
+nota1 = float(input('Digote a primeira nota:'))
+nota2 = float(input("Digite Ssegunda nota : "))
+media = (nota1 + nota2)/2
+print("A sua media final foi {}".format(media ))
+if media >= 6.0:
+    print("Parabens foi aprovado ")
+else:
+    print("Voce falhou! estude mais ")
+
+print("=" *50)        
