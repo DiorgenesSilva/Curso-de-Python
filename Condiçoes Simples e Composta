@@ -309,6 +309,24 @@ print(" Com o reajuste o fncionario passa a ganhar R${:.2F}".format(novo))
 print("-=-FIM-=-")
 
 print("=" * 50)
+
+
+print("""Desenvolva um program aque leia o comprimento de 3 retas.
+        E diga ao usuario se ele pode formar um triangulo""")
+print("=-=" * 20)
+print("**--** Analisador de  Triangulos **--**")
+print("=-=" * 20)
+r1 = float(input("Digite a Primeira Reta"))
+r2 = float(input("Digite a Segunda Reta "))
+r3 = float(input("Digite a Terceira Reta "))
+if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r2 + r1:
+    print("O segmentos acima podem formar um Tringulo ")
+else:
+    print("Os segmentos acima nao formam um Triangulo ")
+print("-=-FIM-=-")
+
+print("=" * 50)
+
  
 
 
