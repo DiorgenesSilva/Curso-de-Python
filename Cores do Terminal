@@ -1,0 +1,89 @@
+print("=-=-= *** CORES NO TERMINAL *** =-=-=")
+print("""Como funciona um codigo ANSI para cores?
+    Existem varios codigos para estilos no Python
+       \ 033 [0;33;44m]    
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-==     
+            ***  CODIGO PARA ESTILO  ***
+    0:>  none = ou nada  sem estilo nenhum       
+    1:>  bold = O 1 por exemplo ira colocar em negrito  
+    4:>  underline = ele ira colocar em sublinhado 
+    7:>  negative = ele vai inverter as opçoes
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=--=-=-=-=-=-=-=-=-==-=-=-=-=-= 
+            *** CORES DO TEXTO /TEXT *** 
+    30:> Branco 
+    31:> Vermelho  
+    32:> Verde
+    33:> Amarelo 
+    34:> Azul
+    35:> Magenta 
+    36:> Ciano
+    37:> Cinza 
+=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-==-=-=-=-=-==-=-=-=-=-===-=--=-=-= 
+             *** CORES DE BACHGROUND OU DE FUNDO ***
+    40:> Branco 
+    41:> Vermelho
+    42:> Verde
+    43:> Amarelo 
+    44:> Azul 
+    45:> Magenta
+    46:> Ciano 
+    47:> Cinza 
+=-=-=-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-====-=-=-=-=-=-==-=-=-=-= """)
+
+print("Execute os testes abaixo e chegue as combinações de cores  ")
+
+print("=" * 20)
+print("Crie a plavras teste1 em branco,com fundo vermelho ")
+print(" \033[1;31,43m Olá Mundo !")
+
+
+print("=" * 20)
+
+print("palavra teste 2 Amarelo e fundo azul   ")
+print(" \033[01;31;33m ola mundo!")
+
+print("=" * 20)
+
+print("Escreva Palavra teste 3 magenta,cor de fundo amarelo ")
+print( " \033[0;35;43m Olá Mundo!")
+
+
+print("=" * 20)
+
+
+
+print("Escreva palavra teste4 letra branca e fundo verde ")
+print(" \033[30,42m Ola Mundo !")
+
+print("=" * 20)
+
+print("Escreva teste5 letra branca e fundo preto ")
+print(" \033[m Ola mundo !")
+
+print("=" * 50)
+
+print("Escreva teste5 letra branca e fundo preto ")
+print(" \033[m Ola mundo !")
+
+print("=" * 50)
+
+a = 3
+b = 5
+print("Os valores sao \033[0;33m   {}\033[m  e \033[0;35m {}\033[m ".format(a, b))
+
+print("=" * 20)
+
+nome = str(input("Digite o seu nome:"))
+print("Ola muito prazer eem te conhecer {}{}{} !!!!".format("\033[1;33m", nome, "\033[m"))
+
+print("=" * 50)
+
+nome = str(input("Digite o seu nome:"))
+cores = {"limpa":"\033[m",
+         "Azul" : "\033[34m",
+          "Amarelo" : "\033[33m",
+           "PretoeBranco" :"\033[730m;" }
+print("Ola muito prazer eem te conhecer {} {}{} !!!!".format(cores["Azul"],nome,cores["PretoeBranco"]))
+
+
+print("=" * 50)
