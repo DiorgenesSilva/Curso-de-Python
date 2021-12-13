@@ -1,0 +1,137 @@
+#AULA 20 FUNÇÕES
+print("""
+FUNÇÕES ou ROTINA DO PYTHON
+OQUE  É ROTINA?
+Rotina é uma cois que voce faz constantemente
+POr exemplo:
+Verficar seu E-mail
+Entra no Whatsapp
+Tomar banho etc
+
+E que coisas voce faz contantemete em Python?
+Ate o momento que crio que voce tenhya utilizado
+muitas Fonçoes em Python ,talvez voce so nao
+sabia que eram Funç~ioes
+-----------------------------------------------------
+Alguns Exemplos:
+def()
+print()
+input()
+len()
+-----------------------------------------------------
+
+Muitas vezes utilizamos a Função
+print(50 * "=")
+Para mostrar um traçado de cinquenta linhas duplas reta
+E utlizamos  muitas vezes isso se torna uma rotina rm python
+
+EXemplo abaixo :
+
+print(50 * "=")
+print("Sistema de Alunos")
+print(50 * "=")
+print(50 * "=")
+print("Cadastro de funcionarios")
+print(50 * "=")
+print(50 * "=")
+print("Erro de Sistema")
+print(50 * "=")
+
+Ao analisarmos o codigo acima vemos que temos codigos
+que se repetem em seis ocasiões,
+isso o torna como uma rotina em python
+
+E como podemos otimizar esse processo ?
+Podemos fazer uma funcionalidade ou uma Fução ou Rotina
+Para facilitar nosso desenvolvimento em Python
+
+EXEMOLO:
+
+def mostralinha():
+   print(50 * "=")
+
+mostralinha()
+print("Sistema de Alunos")
+mostralinha()
+mostralinha()
+print("Cadastro de funcionarios")
+mostralinha()
+mostralinha()
+print("Erro de Sistema")
+mostralinha()
+
+""")
+#
+print( * "=")
+#
+def mostralinha():
+   print(50 * "=")
+
+mostralinha()
+print("Sistema de Alunos")
+mostralinha()
+mostralinha()
+print("Cadastro de funcionarios")
+mostralinha()
+mostralinha()
+print("Erro de Sistema")
+mostralinha()
+#
+mostralinha()
+#
+print("""
+COMO TRABALHAR COM PARAMETROS
+
+mostralinha()
+print("Sistema de Alunos")
+mostralinha()
+
+mostralinha()
+print("Cadastro de funcionarios")
+mostralinha()
+
+mostralinha()
+print("Erro de Sistema")
+mostralinha()
+
+Se dividir  nosso codigo em tres partes diferentes
+podemos perceber que somente a Função print() do meio
+se difere sendo uma string ou um texto 
+E se o codigo se repete 3 vezes tbm se  torna
+uma rotina,entao podemos criar comandos personalizados
+que ira se adaptar melhor as nossas necessidades.
+
+Exemplo abaixo :
+def mensagem(msg):
+ 
+   mostralinha()
+   print(msg)
+   mostralinha()
+
+
+mensagem("Sistema de Alunos")
+
+""")
+#
+mostralinha()
+#
+def titulo(texto):
+   mostralinha()
+   print(texto)
+   mostralinha()
+
+
+#Programa Principal
+titulo("Aprenda Python")
+titulo("Curso OnLine")
+titulo("Boa Sorte")
+#
+mostralinha()
+#
+def linha():
+   print(50 * '=')
+
+
+linha()
+#
+
