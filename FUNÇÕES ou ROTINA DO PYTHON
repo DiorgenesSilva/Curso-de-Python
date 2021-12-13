@@ -1,3 +1,4 @@
+
 #AULA 20 FUNÇÕES
 print("""
 FUNÇÕES ou ROTINA DO PYTHON
@@ -121,7 +122,7 @@ def titulo(texto):
    mostralinha()
 
 
-#Programa Principal
+# Programa Principal 2 linhas de distancia 
 titulo("Aprenda Python")
 titulo("Curso OnLine")
 titulo("Boa Sorte")
@@ -132,6 +133,183 @@ def linha():
    print(50 * '=')
 
 
+# Programa principal duas linhas de distancia 
+linha()
+#
+print("NA ORATICA ")
+linha()
+#
+a = 4
+b = 5
+s = a + b
+print(s)
+
+a = 8
+b = 9
+s = a + b 
+print(s)
+
+a = 2
+b = 1
+s = a + b
+print(s)
+
+print("""
+analisar os codigos acima venhos que so muda
+os parâmetros ,ou pela regra aritimetica 2 operandos
+e se pudermos definir uma função para otimizar esse codigo ?
+Vamos ver como podemos faze isso com o Python
+
+def soma( a , b):
+   s = a + b
+   print(s)
+   
+# Programa Principal distancia das def de outra def ou codigo principal
+soma(4, 5)
+soma(8, 9)
+soma(1, 1)
+
+""")
+linha()
+
+def soma( a , b):
+   s = a + b
+   print(s)
+   
+# Programa Principal distancia das def de outra def ou codigo principal
+soma(4, 5)
+soma(8, 9)
+soma(1, 1)
+
+linha()
+
+def soma( a , b):
+   print(f' A = {a} e B = {b} ')
+   s = a + b
+   print(s)
+   print(f' A soma de A + B é igual a {s}') 
+# Programa Principal distancia das def de outra def ou codigo principal
+soma(4, 5)
+soma(8, 9)
+soma(2, 1)
+
+#
+linha()
+#
+print("""
+EMPACOTAMENTO DE PARÂMETROS EM PYTHON
+EMPACOTAR PARAMENTROS EM PYTHON
+
+EXEMPLO
+Vamos supor que temos uma funcionalidade
+chamda de contador()
+contador(s,7,3,1,3)
+contador(6,4,1)
+No Python voce pode fazer isso ,
+jaa grande maioria outras linguagens
+nao é possivel fazer esse comando
+
+VAMOS ENTENDER?
+
+def contador(* num):
+   print(num)
+
+contador(s, 7, 3, 1, 3)
+contador(6, 4, 1)
+
+Qdo se passa o parametro def(* )
+le ira receberr quantos paramentros  forem definidos 
+
+""")
+#
+linha()
+#
+print("NA PRATICA")
+linha()
+#
+def contador(* num):
+   print(num)
+
+
+contador(2, 1, 7)
+contador(0, 8)
+contador(4, 5, 5, 7, 2)
+#
+linha()
+#
+def contador(* num):
+   tam = len(num)
+   for cont in num:
+      print(cont, end='' )
+   print(f'Recebido o Valor {num} e sao ao todo {tam} numeros')
+
+
+# Programa principal 
+contador(2, 1, 7)
+contador(0, 8)
+contador(4, 5, 5, 7, 2)
+#
+print("""
+Ao analisarmos a função def(* ) vemos que os valores
+voltam como uma tupla, e assim podemos trabalhar com ela da mesma
+forma que tratamos tuplas ,utilizando o laço for: por exemplo 
+""")
+#
+linha()
+#
+print("""
+COMO TRATABLHAR COM LISTAS EM FUNÇÕES
+aO CRIAMOS UMA LISTA PODEMOS ALETAR SEUS VALORES
+EXEMPLO:
+valores = [ 7, 2, 5, 0 ,4 ]
+Ao criamos essa lista criamos um indice de 0 , 4
+Criando assim uma variavel composta com mais de um valor
+
+E se em algum momento quisermos dobrar esses valores
+dentro desta lista,sabendo que ao temos uma função para dobrar
+esses valores ;
+
+def dobra(lst):
+   pos  = 0
+   while pos<len(lst):
+   lst[pos]*=2
+   pos += 1
+   
+
+valores = [ 7, 2, 5, 0 ,4 ]
+dobra(valores)
+print(valores)
+""")
+#
 linha()
 #
 
+def dobra(lista):
+   pos  = 0
+   while pos < len(lista):
+      lista[pos] *= 2
+      pos += 1
+
+   
+valores = [7, 2, 5, 9, 6]
+dobra(valores)
+print(valores)
+#
+linha()
+#
+print("Fazendo  EMPACOTAMENTO")
+#
+def soma(* valor):
+   s = 0
+   for num in valor :
+      s += num
+   print(f"Somando os {valor} temos {s}")
+
+
+soma = (2, 4)
+soma = (3, 6, 7)
+#
+linha()
+#
+
+      
