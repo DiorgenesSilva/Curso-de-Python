@@ -1,0 +1,39 @@
+print("""
+Interrompendo Iterações while
+""")
+def linha():
+   print(50 * "=")
+
+#
+linha()
+#
+print("""
+Imagine um game em Python que o avatar esta em uma linha reta
+e nessa linha existem alguns Obstaculos e recompensas.
+Temos nessa fase:
+> CHÃO
+> BURACO
+> MOEDAS
+> TROFÉU
+Crie um laço while que faça o avatar chegar ate o trofeu,
+passando pelos obstaculos e pegando as recompensas.
+Quando ele pegar o troféu o jogo acaba o interrompa o laço while
+
+
+enquanto verdadeiro:        while True:
+   se tiverchao:               if tiverchao:
+      passo                       passo
+   se tiverburaco:             if tiverburaco:
+      pula                        pula
+   se tivermoeda:              if tivermoeda:
+      pega                        pega
+   se tivertrofeu:             if tivertrofeu:
+      pula                        pula
+      interrompa                  break
+pega                        pega
+
+""")
+#
+linha()
+#
+
