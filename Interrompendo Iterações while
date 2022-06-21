@@ -1,5 +1,7 @@
+
 print("""
 Interrompendo Iterações while
+ESTRUTURA DE REPETIÇÃO COM TESTE LÓGICO
 """)
 def linha():
    print(50 * "=")
@@ -35,5 +37,35 @@ pega                        pega
 """)
 #
 linha()
+linha()
+print("PRATIQUE INTERRUPÇÃO DE ITERAÇÃO  WHILE")
+linha()
+linha()
 #
-
+cont= 1
+while cont <= 10:
+   print(cont)
+   cont += 1
+print("ACABOU")
+#
+linha()
+#
+while True:
+   print(cont)
+   cont += 1
+   if cont == 1000:
+      break
+print("ACaBOU")   
+#
+linha()
+#
+n = s = 0
+while True:
+   n = int(input("Digite um numero"))
+   if n ==  999:
+      break
+   s += n
+print(f"A soma vale {s}")
+#
+linha()
+#
